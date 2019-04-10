@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4822f3ca-a4c0-441d-b030-059abbae08eb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/File/fileList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3996">
+              <caret line="108" column="80" selection-start-line="108" selection-start-column="68" selection-end-line="108" selection-end-column="80" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/admin/delInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="962">
+              <caret line="26" column="11" selection-start-line="3" selection-start-column="8" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FileController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3589">
+              <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="944">
+              <caret line="130" column="53" lean-forward="true" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#block#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#if#0;n#div#0;n#div#0;n#div#0;n#block#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/admin/file/file.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/admin/file/fileDel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>小区</find>
+      <find>item-ta</find>
+      <find>courst-content-item</find>
+      <find>courst-operate</find>
+      <find>content-item-number</find>
+      <find>content-item-operate</find>
+      <find>content-item</find>
+      <find>更多</find>
+      <find>110</find>
+      <find>content</find>
+      <find>getR</find>
+      <find>getQ</find>
+      <find>/shequ/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\phpProjects\wampProjects\shequ</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Task/Controller/AddController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/DelController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/InformationController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/ListController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/OperateController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/SearchController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Car/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Charge/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Company/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/House/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Lease/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/People/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Task/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Car/View/Add/index.html" />
+        <option value="$PROJECT_DIR$/Application/Company/View/Add/index.html" />
+        <option value="$PROJECT_DIR$/Application/Lease/View/Add/index.html" />
+        <option value="$PROJECT_DIR$/Application/Car/View/Information/index.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Search/qiaolian.html" />
+        <option value="$PROJECT_DIR$/Public/js/people/image.js" />
+        <option value="$PROJECT_DIR$/Public/js/admin/file/file.js" />
+        <option value="$PROJECT_DIR$/Application/Car/View/List/index.html" />
+        <option value="$PROJECT_DIR$/Application/Runtime/Logs/Car/19_02_13.log" />
+        <option value="$PROJECT_DIR$/Application/Car/View/Add/excel.html" />
+        <option value="$PROJECT_DIR$/Application/House/View/Add/excel.html" />
+        <option value="$PROJECT_DIR$/Application/House/View/List/index.html" />
+        <option value="$PROJECT_DIR$/Application/Car/Controller/AddController.class.php" />
+        <option value="$PROJECT_DIR$/Application/House/Controller/AddController.class.php" />
+        <option value="$PROJECT_DIR$/Application/People/View/List/index.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/List/zanzhu.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/List/qiaolian.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Add/zanzhu.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Add/qiaolian.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Excel/index.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Excel/qiaolian.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Excel/zanzhu.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/List/huji.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Excel/huji.html" />
+        <option value="$PROJECT_DIR$/Application/People/Controller/ExcelController.class.php" />
+        <option value="$PROJECT_DIR$/Application/People/Controller/SearchController.class.php" />
+        <option value="$PROJECT_DIR$/Application/People/View/List/qianchu.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Search/zanzhu.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Search/index.html" />
+        <option value="$PROJECT_DIR$/Application/People/View/Search/qianchu.html" />
+        <option value="$PROJECT_DIR$/Public/js/people/addInfo.js" />
+        <option value="$PROJECT_DIR$/Application/People/Controller/AddController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/File/fileList.html" />
+        <option value="$PROJECT_DIR$/Public/js/admin/file/fileDel.js" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/FileController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1228" />
+    <option name="height" value="659" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shequ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shequ" type="462c0819:PsiDirectoryNode" />
+              <item name="Uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpProjects\wampProjects\shequ\Public\js\people" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpProjects\wampProjects\shequ" />
+      <recent name="D:\phpProjects\wampProjects\shequ\Application\People\View\Search" />
+      <recent name="D:\phpProjects\wampProjects\shequ\Application\People\View\Excel" />
+      <recent name="D:\phpProjects\wampProjects\shequ\Application\People\Controller" />
+      <recent name="D:\phpProjects\wampProjects\shequ\ThinkPHP\Library\Vendor\PHPExcel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4822f3ca-a4c0-441d-b030-059abbae08eb" name="Default Changelist" comment="" />
+      <created>1546862370133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546862370133</updated>
+      <workItem from="1546862372545" duration="5409000" />
+      <workItem from="1546879932280" duration="4770000" />
+      <workItem from="1546884727970" duration="2625000" />
+      <workItem from="1546887382699" duration="1343000" />
+      <workItem from="1546921185700" duration="24899000" />
+      <workItem from="1547083494038" duration="25410000" />
+      <workItem from="1547135661474" duration="3411000" />
+      <workItem from="1547216773079" duration="12736000" />
+      <workItem from="1547266356157" duration="3142000" />
+      <workItem from="1547269525210" duration="20304000" />
+      <workItem from="1547357068010" duration="12052000" />
+      <workItem from="1547477312200" duration="1202000" />
+      <workItem from="1547990380187" duration="16776000" />
+      <workItem from="1548073706404" duration="14822000" />
+      <workItem from="1548427918488" duration="24243000" />
+      <workItem from="1548490062136" duration="9916000" />
+      <workItem from="1548501646153" duration="1722000" />
+      <workItem from="1548509946708" duration="7566000" />
+      <workItem from="1548643988616" duration="11450000" />
+      <workItem from="1548723261912" duration="821000" />
+      <workItem from="1548724442635" duration="7564000" />
+      <workItem from="1548762930594" duration="14975000" />
+      <workItem from="1548852927641" duration="16299000" />
+      <workItem from="1548986284650" duration="7992000" />
+      <workItem from="1549025175001" duration="14005000" />
+      <workItem from="1549040869243" duration="1245000" />
+      <workItem from="1549042132362" duration="365000" />
+      <workItem from="1549042523739" duration="919000" />
+      <workItem from="1549081114687" duration="34626000" />
+      <workItem from="1549202529307" duration="15438000" />
+      <workItem from="1549246703718" duration="16936000" />
+      <workItem from="1549272047974" duration="45000" />
+      <workItem from="1549856608534" duration="822000" />
+      <workItem from="1549858835087" duration="1089000" />
+      <workItem from="1549874933854" duration="2960000" />
+      <workItem from="1550036148000" duration="3547000" />
+      <workItem from="1550039843475" duration="1369000" />
+      <workItem from="1550062686957" duration="7430000" />
+      <workItem from="1550070155726" duration="10772000" />
+      <workItem from="1550111213021" duration="215000" />
+      <workItem from="1550111449641" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="364180000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/PHPExcel/PHPExcel/IOFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="169" column="34" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Car/6dd928699fc307ffbfe3f69bdbc28a87.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Car/19_02_11.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-9546" />
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Car/19_02_13.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1881" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AddController.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Car/View/Add/excel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="93" column="39" lean-forward="true" selection-end-line="173" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#sup#0;n#if#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Car/View/List/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="83" column="11" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Car/Controller/AddController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="91" column="77" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
+          <folding>
+            <element signature="e#32#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/House/View/List/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="83" column="58" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_02_13.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_02_11.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_02_04.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/House/Controller/AddController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/House/View/Add/excel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="75" column="46" lean-forward="true" selection-end-line="173" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#sup#0;n#if#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/List/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="15" column="213" selection-start-line="15" selection-start-column="135" selection-end-line="15" selection-end-column="213" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/List/zanzhu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="212" selection-start-line="15" selection-start-column="212" selection-end-line="15" selection-end-column="212" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#block#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/List/qiaolian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="14" column="214" selection-start-line="14" selection-start-column="214" selection-end-line="14" selection-end-column="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Add/zanzhu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Add/qiaolian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Excel/qiaolian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Excel/zanzhu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Excel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#sup#0;n#if#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Logs/People/19_02_14.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-553">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/List/huji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="210" selection-start-line="15" selection-start-column="210" selection-end-line="15" selection-end-column="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Excel/huji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/Controller/ExcelController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="163" column="75" selection-start-line="163" selection-start-column="75" selection-end-line="163" selection-end-column="75" />
+          <folding>
+            <element signature="e#120#271#0#PHP" />
+            <element signature="e#4397#4548#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/Controller/SearchController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/List/qianchu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/Controller/InformationController.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Search/zanzhu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#1373#1379#0" expanded="true" />
+            <element signature="e#1379#1385#0" expanded="true" />
+            <element signature="e#1385#1391#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#volist#0;n#div#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#1551#1557#0" expanded="true" />
+            <element signature="e#1557#1563#0" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#volist#0;n#div#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#0;n#volist#0;n#div#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#1923#1929#0" expanded="true" />
+            <element signature="e#1929#1935#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#block#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Search/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="e#1537#1543#0" expanded="true" />
+            <element signature="e#1543#1549#0" expanded="true" />
+            <element signature="e#1549#1555#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#1723#1729#0" expanded="true" />
+            <element signature="e#1729#1735#0" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#2128#2134#0" expanded="true" />
+            <element signature="e#2134#2140#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#3;n#div#0;n#if#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#3534#3540#0" expanded="true" />
+            <element signature="e#3540#3546#0" expanded="true" />
+            <element signature="e#3546#3552#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#3720#3726#0" expanded="true" />
+            <element signature="e#3726#3732#0" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#4125#4131#0" expanded="true" />
+            <element signature="e#4131#4137#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#3;n#div#0;n#if#1;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Search/qiaolian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#block#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#volist#0;n#div#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+            <element signature="e#2242#2248#0" expanded="true" />
+            <element signature="e#2248#2254#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#if#0;n#div#0;n#block#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Search/qianchu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+          <folding>
+            <element signature="e#1418#1424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/View/Add/huji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/addqiaoLianInfo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/addZanZhuInfo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/delInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/editqiaoLianInfo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/delZanZhuInfo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/people/addInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/People/Controller/AddController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Task/View/List/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/File/fileList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3996">
+          <caret line="108" column="80" selection-start-line="108" selection-start-column="68" selection-end-line="108" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#volist#0;n#if#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/admin/delInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="26" column="11" selection-start-line="3" selection-start-column="8" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FileController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3589">
+          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/admin/file/file.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/admin/file/fileDel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="130" column="53" lean-forward="true" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#block#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#if#0;n#div#0;n#div#0;n#div#0;n#block#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

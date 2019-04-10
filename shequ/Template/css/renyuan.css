@@ -1,0 +1,30 @@
+
+/*表格的css代码*/
+.cont{height: 30px;line-height: 30px;}
+.cont .cont-title{background: #BA4C32;color: #fff;font-weight: bold;}
+.cont .cont-content{width: 100%;height: 600px;background: #FBFCFC;}
+
+.people-table{background: #F2F6FB;}
+.people-table input{background-color: #fff;height: 2em;border-radius: 0.5em;border: 1px solid #ccc;}
+.people-table td:hover{background-color: #F0ECEC}
+.people-table td input:hover{border: 1px solid #678FC2;}
+.people-table td textarea:hover{border: 1px solid #678FC2;}
+.people-table .one{width:8%;}
+.people-table .two{width:12%;}
+.people-table .three{margin-right: 5px;}
+/*.people-table .four{width: 100%;}*/
+.people-table select{border:1px solid #333;}
+.people-table textarea{border: 1px solid #ccc;}
+
+/*表格*/
+.people-table{border-collapse: collapse; width: 100%; font-size: 10px;}
+.people-table th{background-color: #E8E8E8;}
+.people-table th,
+.people-table td{border: solid 1px #ccc; padding: 15px;}
+.label,.check{vertical-align: middle;}
+.check{margin-right: 4px;}
+.btn{padding: 4px 16px; margin:5px 2px;background-color: #E8E8E8; margin: 0 10px;font-family: "Malgun Gothic"; font-size: 14px; }
+.btn:hover{background-color: #ccc;}
+
+/*房屋信息的css*/
+.people-table .button{width: 100px;}

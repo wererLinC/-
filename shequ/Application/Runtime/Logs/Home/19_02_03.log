@@ -1,0 +1,1927 @@
+[ 2019-02-03T00:00:13+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2019-02-03T00:39:11+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2019-02-03T00:40:17+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2019-02-03T00:47:37+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2019-02-03T00:47:38+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2019-02-03T00:49:19+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2019-02-03T00:53:21+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2019-02-03T00:53:25+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2019-02-03T00:57:04+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2019-02-03T00:59:59+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2019-02-03T01:00:01+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-02-03T01:02:10+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2019-02-03T01:02:36+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-02-03T01:03:29+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-02-03T01:07:13+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2019-02-03T22:02:18+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null AND `isComplete` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 30 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined index: admin D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2019-02-03T22:02:41+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-02-03T22:02:44+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2019-02-03T22:02:52+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `admin` WHERE ( name="陈伟林" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-03T22:02:54+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2019-02-03T22:02:58+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2019-02-03T22:03:03+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2019-02-03T22:05:05+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2019-02-03T22:05:12+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2019-02-03T22:05:15+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-02-03T22:05:18+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2019-02-03T22:05:22+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2019-02-03T22:05:27+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `admin` WHERE ( name="陈伟林" ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-03T22:05:28+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2019-02-03T22:05:31+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2019-02-03T22:05:34+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005397s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2019-02-03T22:21:24+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2019-02-03T22:22:18+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-02-03T22:22:27+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-02-03T22:30:20+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2019-02-03T22:38:05+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-02-03T22:49:15+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008692s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-02-03T22:55:30+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2019-02-03T22:55:48+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2019-02-03T23:01:45+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-02-03T23:06:58+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2019-02-03T23:08:00+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2019-02-03T23:14:15+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-02-03T23:20:30+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-02-03T23:26:45+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2019-02-03T23:33:00+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2019-02-03T23:39:15+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-02-03T23:45:30+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+

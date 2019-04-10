@@ -1,0 +1,294 @@
+[ 2019-02-11T11:58:47+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2019-02-11T11:58:48+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2019-02-11T11:59:04+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2019-02-11T11:59:16+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2019-02-11T11:59:17+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-02-11T11:59:49+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2019-02-11T11:59:49+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2019-02-11T11:59:50+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-02-11T11:59:50+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2019-02-11T11:59:50+08:00 ] 127.0.0.1 /index.php?m=car&c=information&a=index&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `car` WHERE ( id="10" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `house` WHERE `cardId` = '12'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `cardId` = '12' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\f7cc418602cf721599b5d0ef701a6e9d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2019-02-11T11:59:52+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+

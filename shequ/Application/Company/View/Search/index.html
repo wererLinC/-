@@ -1,0 +1,60 @@
+<extend name="Public:base"/>
+
+<block name="title">企业管理</title></block>
+
+<block name="header"><li class="active">企业搜索</li></block>
+
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 550px;padding: 10px;">
+
+        <div class="courst-contenr-border">
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <if condition="$companyInfo neq null">
+                    <tr>
+                        <th style="text-align: center;">法人身份证</th>
+                        <th style="text-align: center;">法人姓名</th>
+                        <th style="text-align: center;">法人电话</th>
+                        <th style="text-align: center;">政治面貌</th>
+                        <th style="text-align: center;">注册资本</th>
+                        <th style="text-align: center;">从业人员</th>
+                        <th style="text-align: center;">社会信用代码</th>
+                        <th style="text-align: center;">注册时间</th>
+                    </tr>
+                    <volist name="companyInfo" id="companyInfo">
+                        <tr style="font-size: 12px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=company&c=information&a=index&id={$companyInfo.id}'">
+                            <td>{$companyInfo.usecardid}</td>
+                            <td>{$companyInfo.usename}</td>
+                            <td>{$companyInfo.usephone}</td>
+                            <td>{$companyInfo.policy|getPolicy}</td>
+                            <td>{$companyInfo.capital}</td>
+                            <td>{$companyInfo.staff}</td>
+                            <td>{$companyInfo.creditnumber}</td>
+                            <td>{$companyInfo.regdata}</td>
+                        </tr>
+                    </volist>
+                    <else/>
+                    <tr>
+                        <th style="text-align: center;">法人身份证</th>
+                        <th style="text-align: center;">法人姓名</th>
+                        <th style="text-align: center;">法人电话</th>
+                        <th style="text-align: center;">政治面貌</th>
+                        <th style="text-align: center;">注册资本</th>
+                        <th style="text-align: center;">从业人员</th>
+                        <th style="text-align: center;">社会信用代码</th>
+                        <th style="text-align: center;">注册时间</th>
+                    </tr>
+                    <tr style="font-size: 14px;color: #8C8C8C;cursor: pointer;" onclick="javascript:history.back(-1);">
+                        <td colspan="8">没有相关信息，点击返回！</td>
+                    </tr>
+                </if>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+
+    </div>
+
+</block>

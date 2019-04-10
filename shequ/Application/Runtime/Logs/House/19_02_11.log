@@ -1,0 +1,112 @@
+[ 2019-02-11T11:57:37+08:00 ] 127.0.0.1 /index.php?m=house&c=information&a=index&id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `house` WHERE ( id="40" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\House\9187c42a87f90dfaff93560a327db374.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2019-02-11T12:00:17+08:00 ] 127.0.0.1 /index.php?m=house&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\House\19f07fcadadbddb98e893637d63079b7.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2019-02-11T12:00:19+08:00 ] 127.0.0.1 /index.php?m=house&c=information&a=index&id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `house` WHERE ( id="43" ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\House\9187c42a87f90dfaff93560a327db374.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2019-02-11T12:00:22+08:00 ] 127.0.0.1 /index.php?m=house&c=del&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0061s ]
+SQL: DELETE FROM `house` WHERE ( id=43 ) [ RunTime:0.0038s ]
+
+[ 2019-02-11T12:00:22+08:00 ] 127.0.0.1 /index.php?m=house&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\House\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\House\19f07fcadadbddb98e893637d63079b7.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+

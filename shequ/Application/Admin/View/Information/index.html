@@ -1,0 +1,66 @@
+<extend name="Public:base"/>
+
+<block name="title">管理员列表</title></block>
+
+<block name="header">
+            <li class="active">管理员详情</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="house-info">
+                    <div class="title">
+                        管理员
+                    </div>
+                    <div class="info-content">
+                        <div class="content">
+                            小区：{$adminInfo.community|getCommunity}<br>
+                            身份证号码：{$houseInfo.cardid}<br>
+                            姓名：{$adminInfo.name}<br>
+                            手机：{$adminInfo.phone}<br>
+                        </div>
+                        <div class="content">
+                            性别：{$adminInfo.sex|getSex}<br>
+                            户籍地：{$adminInfo.birthland}<br>
+                            部门/职务：{$adminInfo.position}<br>
+                            党员：<if condition="$adminInfo.policy eq 1">是<else/>否</if><br>
+                        </div>
+                        <div class="content">
+                            <br>
+                            <input id="adminId" type="hidden" value="{$adminInfo.id}">
+                            <br>
+
+                            <div class="content-operate">
+                                <a href="/index.php?m=admin&c=edit&a=wanshan&id={$adminInfo.id}">完善</a>
+                                <if condition="$Think.session.admin.isadmin eq 1">
+                                <a href="/index.php?m=admin&c=edit&a=index&id={$adminInfo.id}">修改</a><a id="del" style="cursor: pointer;margin-left: 10px;" onclick="delInfo.del()">删除</a>
+                                <else/>
+                                </if>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+									<a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onClick="javascript :history.back(-1);" >返回</a>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 140px;"></div>
+
+
+</block>
+
+<block name="js">
+    <script src="/Public/js/admin/delInfo.js"></script>
+</block>

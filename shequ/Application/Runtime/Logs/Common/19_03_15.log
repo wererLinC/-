@@ -1,0 +1,72 @@
+[ 2019-03-15T03:11:33+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-15T09:07:46+08:00 ] 216.245.197.254 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-15T10:12:13+08:00 ] 123.126.113.82 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-15T12:11:33+08:00 ] 106.120.173.64 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Robots
+
+[ 2019-03-15T12:27:04+08:00 ] 120.132.3.65 http://www.qq.com/404/search_children.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:404
+
+[ 2019-03-15T13:17:12+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Cache
+
+[ 2019-03-15T14:42:30+08:00 ] 43.247.230.42 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Manager
+
+[ 2019-03-15T16:59:42+08:00 ] 5.8.10.202 /vendor/phpunit/phpunit/README.md
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Vendor
+
+[ 2019-03-15T17:23:46+08:00 ] 113.237.183.146 /otsmobile/app/mds/mgw.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Otsmobile
+
+[ 2019-03-15T21:44:17+08:00 ] 115.236.191.214 /phpmyadmin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2019-03-15T21:55:20+08:00 ] 103.236.255.186 /phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2019-03-15T23:20:46+08:00 ] 80.82.70.187 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Cache
+

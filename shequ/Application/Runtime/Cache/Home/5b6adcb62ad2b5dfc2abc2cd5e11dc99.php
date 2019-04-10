@@ -1,0 +1,31 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>社区后台登录</title>
+    <link href="/Template/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="/Template/css/login.css">
+    <script src="/Template/js/jquery-1.10.2.min.js"></script>
+</head>
+<body class="login-bg">
+
+<div class="login">
+    <div class="message">社区后台登录</div>
+    <div id="darkbannerwrap"></div>
+
+    <form id="loginInfo" class="layui-form" >
+        <input name="name" placeholder="姓名"  type="text" lay-verify="required" class="layui-input" >
+        <hr class="hr15">
+        <input name="cardId" lay-verify="required" placeholder="身份证号码"  type="password" class="layui-input">
+        <hr class="hr15">
+        <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="button" onclick="login.check()">
+        <hr class="hr20" >
+    </form>
+</div>
+<!--!&#45;&#45; Bootstrap Core JavaScript &ndash;&gt;-->
+<script src="/Template/js/bootstrap.min.js"></script>
+<script src="/Public/js/dialog/layer.js"></script>
+<script src="/Public/js/dialog.js"></script>
+<script src="/Public/js/login/login.js"></script>
+</body>
+</html>

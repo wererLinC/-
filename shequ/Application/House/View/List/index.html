@@ -1,0 +1,100 @@
+<extend name="Public:base"/>
+
+<block name="title">房屋管理</title></block>
+
+<block name="header">
+            <li class="active">房屋列表</li>
+</block>
+
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 580px;">
+        <div class="courst-contenr-border">
+            <!-- 操作 -->
+            <div class="courst-operate">
+                <div class="operate-item">
+									<span class="input-group-btn">
+										<button id="addHouse" class="btn btn-success" style="border-radius: 10%;font-size: 12px;">+&nbsp;添加</button>
+										<button id="addExcel" style="font-size: 12px;margin-left: 30px;border-radius: 10%;" class="btn btn-success ">导入</button>
+									</span>
+                </div>
+                <div class="operate-search">
+                    <div class="header-search">
+                        <div class="input-group col-md-8" >
+                            <input style="font-size: 12px;height: 31px;" type="text" name="searchContent" class="form-control"placeholder="请输入字段名" / >
+                            <span class="input-group-btn">
+                                <button style="font-size: 12px;" class="btn btn-primary" id="searchButton">查找</button>
+                            </span>
+                        </div>
+                    </div>
+                    <span style="margin-bottom: 0px;color: #d58512;float: right;margin-right: 10px;">共：<if condition="$count neq null">{$count}<else/>0</if>&nbsp;人</span>
+                </div>
+            </div>
+            <!-- 操作结束 -->
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <tr>
+                    <th style="text-align: center;">房屋地址</th>
+                    <th style="text-align: center;">小区名称</th>
+                    <th style="text-align: center;">楼栋·单元·室</th>
+                    <th style="text-align: center;">身份证</th>
+                    <th style="text-align: center;">姓名</th>
+                    <th style="text-align: center;">联系电话</th>
+                    <th style="text-align: center;">房屋类型</th>
+                </tr>
+                <volist name="houseInfo" id="houseInfo">
+                <tr style="font-size: 12px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=house&c=information&a=index&id={$houseInfo.id}'">
+                    <td>{$houseInfo.address}</td>
+                    <td>{$houseInfo.community|getCommunity}</td>
+                    <td>{$houseInfo.buildnum}--{$houseInfo.unitnum}--{$houseInfo.roomnum}</td>
+                    <td>{$houseInfo.cardid}</td>
+                    <td>{$houseInfo.name}</td>
+                    <td>{$houseInfo.phone}</td>
+                    <td>{$houseInfo.roomtype|getRoomType}</td>
+                </tr>
+                </volist>
+                <tr  style="text-align: center;">
+                    <td colspan="8">
+                        <ul class="pagination" >
+                           {$pageRes}
+                        </ul>
+                    </td>
+                </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+
+</div>
+
+</block>
+
+<block name="js">
+    <script type="text/javascript">
+        //添加函数
+        $('#addHouse').on('click',function () {
+            window.location.href='/index.php?m=house&c=add&a=index';
+        });
+
+        //添加excel函数
+        $('#addExcel').on('click',function () {
+            window.location.href='/index.php?m=house&c=add&a=excel';
+        });
+
+        //搜索函数
+        $('#searchButton').on('click',function () {
+            var searchContent = $('input[name="searchContent"]').val();
+            var re = /^[0-9]+.?[0-9]*$/; //判断字符串是否为数字 //判断正整数 /^[1-9]+[0-9]*]*$/
+            if (!re.test(searchContent)) {
+                //不是数字那就是名字来查
+                window.location.href='/index.php?m=house&c=search&a=index&name='+searchContent;
+            }else{
+                //是数字就是用身份证来查的
+                window.location.href='/index.php?m=house&c=search&a=index&cardId='+searchContent;
+            }
+        })
+    </script>
+</block>

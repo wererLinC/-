@@ -1,0 +1,63 @@
+<extend name="Public:base"/>
+
+<block name="title">人员管理</title></block>
+
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=people&c=list&a=index">人员管理</a></li>
+            <li class="active">人员信息</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 440px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="renyuan-info">
+                    <div class="title">
+                        基础信息
+                    </div>
+                    <div class="info-content">
+                            <div class="content">
+                                身份证号码：{$peopleInfo.cardid}<br>
+                                姓名：{$peopleInfo.name}<br>
+                                性别：{$peopleInfo.sex|getSex}<br>
+                            </div>
+                            <div class="content">
+                                政治面貌：{$peopleInfo.policy|getPolicy}<br>
+                                公务职位：{$peopleInfo.position|getPosition}<br>
+                                工作单位：{$peopleInfo.workland}<br>
+                            </div>
+                            <div class="content">
+                                <span style="margin-right: 5px;">房屋:</span><br>
+                                    <a style="margin-left: 30px;" href="/index.php?m=house&c=information&a=index&id={$houseInfo.id}">{$houseInfo.community|getCommunity}-{$houseInfo.address}-{$houseInfo.buildnum}{$houseInfo.unitnum}{$houseInfo.roomnum}<br></a>
+                            <input id="peopleId" type="hidden" value="{$peopleInfo.id}">
+                            <br>
+                            <div class="content-operate">
+                                <a href="/index.php?m=people&c=edit&a=zanzhu&id={$peopleInfo.id}">修改</a><a id="del" style="cursor: pointer;margin-left: 10px;" onclick="delZanZhuInfo.del()">迁出</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+									<a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " href="/index.php?m=people&c=list&a=zanzhu" >返回</a>
+								</span>
+                </div>
+            </div>
+
+            </if>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 140px;"></div>
+</block>
+
+<block name="js">
+    <script src="/Public/js/people/delZanZhuInfo.js"></script>
+</block>

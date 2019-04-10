@@ -1,0 +1,47 @@
+<extend name="Public:base"/>
+<block name="css">
+    <link href="/Public/js/dialog/skin/layer.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="/Template/fileinput/fileinput.min.css">
+</block>
+
+<block name="title">管理员</block>
+
+<block name="header">
+    <li class="active">管理员完善</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+
+                    <td style="margin-top: 50px" class="two" rowspan="4" align="center">
+                        <img  src="" id="img_show"  width="135px" height="135px" style="display:none;" >
+                        <div style="height: 30px;"></div>
+                        <input style="height: 10px;" id="uploadfile"  type="file" name="thumb" data-show-preview="false">
+                        <input name="picture" value="" id="file_upload" type="hidden">
+                        <input name="id" value="{$id}"  type="hidden">
+                    </td>
+                    <td class="one" rowspan="4" align="center">上传美美的照片:</td>
+                </div>
+                <div class="addHouse-operate" style="bottom: 10px;">
+                    <button class="btn btn-success" style="border-radius:10%;margin-left: 250px;"  id="wanshan">确定</button>
+                    <button style="margin-left: 20px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+
+    <script src="/Template/fileinput/fileinput.min.js"></script>
+    <script src="/Template/fileinput/fileinput_locale_zh.js"></script>
+    <script src="/Public/js/admin/wanshan.js"></script>
+    <script src="/Public/js/people/image.js"></script>
+    <script src="/Public/js/dialog.js"></script>
+    <script src="/Public/js/dialog/layer.js"></script>
+</block>

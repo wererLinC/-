@@ -1,0 +1,113 @@
+<extend name="Public:base"/>
+
+<block name="title">人员列表</title></block>
+<block name="css">
+    <link href="/Template/css/peopleList.css" rel='stylesheet' type='text/css' />
+</block>
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 450px;">
+        <!-- 操作 -->
+        <div class="courst-operate" style="padding: 0px;margin-top: 10px;" >
+            <div class="operate-item">
+									<span class="input-group-btn">
+										<button  id="addpeople" class="btn btn-success" style="border-radius: 10%;font-size: 12px">+&nbsp;添加</button>
+										<button  style="margin-left: 30px;border-radius: 10%;font-size: 12px" class="btn btn-success " onclick="javascript:location.href='/index.php?m=people&c=excel&a=qiaolian'">导入</button>
+									</span>
+            </div>
+            <div class="operate-search">
+                <div class="header-search" style="font-size: 12px">
+                    <div class="input-group col-md-8" >
+                        <input style="font-size: 12px;height: 31px;" type="text" name="searchContent" class="form-control"placeholder="请输入字段名" / >
+                        <span class="input-group-btn">
+                                <button class="btn btn-primary" style="font-size: 12px;" id="searchButton">查找</button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 操作结束 -->
+        <hr>
+        <div class="courst-content-item" style="width: 1100px;">
+            <volist name="peopleInfos" id="peopleInfo">
+                <!-- 人员信息 -->
+                <div id="content-item" class="content-item qiaolianTable" style="width: 300px;">
+                    <div id="content-item-name" class="content-item-name" style="width: 180px;" onclick="javascript:location.href='/index.php?m=people&c=information&a=qiaolian&id={$peopleInfo.id}' ">
+                        <span style="font-size: 12px;color: #888888">名字：{$peopleInfo.name}</span><br>
+                        <span style="font-size: 12px;color: #888888">户主名字:{$peopleInfo.ownername}</span><br>
+                        <span style="font-size: 12px;color: #888888">[与户主关系]:{$peopleInfo.ownerrelative|getRelative}</span>
+                    </div>
+                    <div id="content-item-number"  class="content-item-number" style="position:absolute;top: 8px;right: 5px" onclick="javascript:location.href='/index.php?m=people&c=information&a=qiaolian&id={$peopleInfo.id}' ">
+                        <span style="font-size: 12px;color: #888888">居住国家：{$peopleInfo.country}</span><br>
+                        <span style="font-size: 12px;color: #888888">类型:{$peopleInfo.type|getQiaoLianType}</span><br>
+                    </div>
+                    <input id="peopleId" type="hidden" value="{$peopleInfo.id}">
+                    <div id="content-item-operate" class="content-item-operate">
+                        <a href="/index.php?m=people&c=edit&a=qiaolian&id={$peopleInfo.id}">修改资料</a>&nbsp;&nbsp;
+                        <!--<a onclick="delQiaoLianInfo.del()">迁出</a>-->
+                        <a id="delId" attr-id="{$peopleInfo.id}">迁出</a>
+                    </div>
+                </div>
+                <!-- 人员信息结束 -->
+            </volist>
+
+        </div>
+
+
+</block>
+
+<block name="page">
+    <!-- 分页 -->
+    <nav style="text-align: center;margin-top: 40px;">
+        <ul class="pagination-plain">
+            {$pageRes}
+        </ul>
+    </nav>
+    <!-- 分页结束 -->
+</block>
+
+<block name="js">
+    <script type="text/javascript">
+        //迁出操作
+        $('.qiaolianTable #delId').on('click',function () {
+            var id = $(this).attr('attr-id');
+            var postData = {
+                'id':id,
+            }
+            layer.open({
+                content : "确定迁出？？",
+                icon:3,
+                btn : ['是','否'],
+                yes : function(){
+                    url = '/index.php?m=people&c=del&a=qiaolian';
+                    $.post(url,postData,function(result) {
+                        if(result.status == 1) {
+                            //成功
+                            window.location.href='/index.php?m=people&c=list&a=qiaolian';
+                        }else if(result.status == 0) {
+                            // 失败
+                            return dialog.error(result.message);
+                        }
+                    },"JSON");
+                },
+            });
+
+        });        //添加函数
+        $('#addpeople').on('click',function () {
+            window.location.href='/index.php?m=people&c=add&a=qiaolian';
+        });
+
+        //搜索函数
+        $('#searchButton').on('click',function () {
+            var searchContent = $('input[name="searchContent"]').val();
+            var re = /^[0-9]+.?[0-9]*$/; //判断字符串是否为数字 //判断正整数 /^[1-9]+[0-9]*]*$/
+            if (!re.test(searchContent)) {
+                //不是数字那就是名字来查
+                window.location.href='/index.php?m=people&c=search&a=qiaolian&name='+searchContent;
+            }else{
+                //是数字就是用身份证来查的
+                window.location.href='/index.php?m=people&c=search&a=qiaolian&cardId='+searchContent;
+            }
+        })
+    </script>
+</block>

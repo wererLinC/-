@@ -1,0 +1,56 @@
+[ 2019-02-21T00:07:15+08:00 ] 220.160.49.55 /index.php?m=company&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: p /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `company` WHERE `community` = 3 LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: taskCount /var/www/html/shequ/Application/Runtime/Cache/Company/1f4e2606f6a446f4fdaab4f2dbd54090.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2019-02-21T00:07:55+08:00 ] 220.160.49.55 /index.php?m=company&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: p /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Company/Controller/ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `company` WHERE `community` = 3 LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: taskCount /var/www/html/shequ/Application/Runtime/Cache/Company/1f4e2606f6a446f4fdaab4f2dbd54090.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+

@@ -1,0 +1,52 @@
+<extend name="Public:base"/>
+
+<block name="title">管理员列表</title></block>
+
+<block name="header">
+            <li class="active">管理员搜索列表</li>
+</block>
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content">
+
+        <div class="courst-contenr-border">
+
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <tr>
+                    <th style="text-align: center;">身份证号码</th>
+                    <th style="text-align: center;">姓名</th>
+                    <th style="text-align: center;">联系电话</th>
+                    <th style="text-align: center;">性别</th>
+                    <th style="text-align: center;">户籍地</th>
+                    <th style="text-align: center;">部门/职务</th>
+                    <th style="text-align: center;">党员</th>
+                </tr>
+                <if condition="$adminInfo neq null">
+                <volist name="adminInfo" id="adminInfo">
+                    <tr style="font-size: 14px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=admin&c=information&a=index&id={$adminInfo.id}'">
+                        <td>{$adminInfo.cardid}</td>
+                        <td>{$adminInfo.name}</td>
+                        <td>{$adminInfo.phone}</td>
+                        <td>{$adminInfo.sex|getSex}</td>
+                        <td>{$adminInfo.birthland}</td>
+                        <td>{$adminInfo.position}</td>
+                        <td><if condition="$adminInfo.policy eq 1">是<else/>否</if></td>
+                    </tr>
+                </volist>
+                    <else/>
+                    
+                    <tr style="font-size: 14px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=admin&c=list&a=index'">
+                        <td colspan="7">没有相关资料,点击返回</td>
+                    </tr>
+                </if>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 20px;">
+
+</div>
+</block>

@@ -1,0 +1,59 @@
+<extend name="Public:base"/>
+
+<block name="title">房屋管理</title></block>
+
+<block name="header">
+            <li class="active">房屋详情</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="house-info">
+                    <div class="title">
+                        房屋信息
+                    </div>
+                    <div class="info-content">
+                        <div class="content">
+                            身份证号码：{$houseInfo.cardid}<br>
+                            姓名：{$houseInfo.name}<br>
+                            手机：{$houseInfo.phone}<br>
+                            类型：{$houseInfo.roomtype|getRoomType}<br>
+                        </div>
+                        <div class="content">
+                            房屋地址：{$houseInfo.address}<br>
+                            楼栋号：{$houseInfo.buildnum}<br>
+                            单元号：{$houseInfo.unitnum}<br>
+                            室号：{$houseInfo.roomnum}<br>
+                        </div>
+                        <div class="content">
+                            所属小区：{$houseInfo.community|getCommunity}<br>
+                            <br>
+                            <input id="houseId" type="hidden" value="{$houseInfo.id}">
+                            <br>
+                            <div class="content-operate">
+                                <a href="/index.php?m=house&c=edit&a=index&id={$houseInfo.id}">修改</a><a id="del" style="cursor: pointer;margin-left: 10px;" onclick="delInfo.del()">删除</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+									<a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onClick="javascript :history.back(-1);" >返回</a>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 140px;"></div>
+
+
+</block>
+
+<block name="js">
+    <script src="/Public/js/house/delInfo.js"></script>
+</block>

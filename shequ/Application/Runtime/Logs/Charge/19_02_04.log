@@ -1,0 +1,542 @@
+[ 2019-02-04T01:46:40+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2019-02-04T02:08:55+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-02-04T02:08:59+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=charged
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 109 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\f0717a278cc8445ea09ea6eb02ce44f8.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-02-04T02:09:00+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-02-04T02:09:32+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=charged
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 109 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\f0717a278cc8445ea09ea6eb02ce44f8.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2019-02-04T02:09:33+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2019-02-04T02:09:35+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2019-02-04T02:10:09+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=charged
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 109 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 128 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\f0717a278cc8445ea09ea6eb02ce44f8.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2019-02-04T02:10:10+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-02-04T02:10:12+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2019-02-04T02:10:36+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2019-02-04T02:10:39+08:00 ] 127.0.0.1 /index.php?m=charge&c=information&a=index&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `charge` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = 'one' AND `unitNum` = 'one' AND `roomNum` = 'one' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\67c76d5ce9b22d5d64ccf29e6a96c79d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2019-02-04T02:10:41+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2019-02-04T02:10:45+08:00 ] 127.0.0.1 /index.php?m=charge&c=search&a=index&name=ala
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: cardId D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\SearchController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\SearchController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\SearchController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `charge` WHERE `community` = 2 AND `name` LIKE '%ala%'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\ffaf62e7326cdb162a810f7f0375fd84.php 第 46 行.
+NOTIC: [8] Undefined variable: pageRes D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\ffaf62e7326cdb162a810f7f0375fd84.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-02-04T10:41:09+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2019-02-04T12:06:16+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2019-02-04T12:29:55+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2019-02-04T15:25:20+08:00 ] 127.0.0.1 /index.php?m=charge&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 0 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Charge\Controller\ListController.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `isCharge` = 1 AND `community` = 2 AND `money` <> 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `charge` WHERE `money` = 0 AND `community` = 2 LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Charge\aedd94936195dc49e971bd133b6b15ac.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+

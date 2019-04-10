@@ -1,0 +1,42 @@
+.addPeopleOperate{
+    display: none;
+    z-index:1000;
+    background: #C8CDD2;
+    color: #8C8C8C;
+    line-height: 20px;
+    font-size: 10px;
+    position: absolute;
+    top:55px;
+    left: 220px;
+    width: 40px;
+}
+#content-item{
+    background: #FFF3CE;
+    position: relative;
+    width: 280px;
+    height: 140px;
+}
+
+#peopleImg{
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%
+}
+
+#content-item-number{
+    text-align: left;
+    float: left;
+    width: 160px;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+#content-item-operate{
+    font-size: 10px;
+    bottom: 0px;
+}
+
+#content-item-name{
+    width: 100px;
+}

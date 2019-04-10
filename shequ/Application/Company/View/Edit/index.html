@@ -1,0 +1,110 @@
+<extend name="Public:base"/>
+
+<block name="title">企业信息修改</block>
+
+<block name="header">
+    <li class="active">企业信息修改</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content">
+        <div class="courst-content-item">
+                <div class="addHouse-content">
+                    <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+                        <form role="form" id="editCompanyInfo" >
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">注册资本</span></span>
+                                    <input style="width: 82px;"  type="text" class="form-control"  name="capital" value="{$companyInfo.capital}">
+
+                                    <span class="input-group-addon ">从业人员</span></span>
+                                    <input style="width: 82px;"  type="text" class="form-control"  name="staff" value="{$companyInfo.staff}">
+
+                                    <span class="input-group-addon ">社会信用代码</span>
+                                    <input style="width: 150px;"  type="text" class="form-control"  name="creditNumber" value="{$companyInfo.creditnumber}">
+                                </div>
+
+                            </div>
+
+                            <!-- 手机验证 -->
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">注册时间</span>
+                                    <input id="meeting" type="date" class="form-control"  name="regData" placeholder="注册日期" value="{$companyInfo.regdata}"/>
+                                    <span class="input-group-addon ">政治面貌</span>
+                                    <select name="policy" data-toggle="select" class="form-control select select-warning mrs">
+                                        <option value="1">中共党员</option>
+                                        <option value="2">共青团员</option>
+                                        <option value="3">群众</option>
+                                        <option value="4">预备党员</option>
+                                        <option value="5">其他民族党派</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+                            <!-- 校验用 -->
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">法人身份证</span>
+                                    <input type="text" class="form-control"  name="useCardId" value="{$companyInfo.usecardid}">
+                                </div>
+                            </div>
+
+                            <!-- 校验用 -->
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">法人姓名</span>
+                                    <input type="text" class="form-control"  name="useName" value="{$companyInfo.usename}">
+                                </div>
+                            </div>
+                            <!-- 校验用 -->
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">法人电话</span>
+                                    <input type="text" class="form-control"  name="usePhone" value="{$companyInfo.usephone}">
+                                </div>
+                            </div>
+
+
+                            <!-- 校验用 -->
+                            <div class="form-group">
+                                <div class="input-group  ">
+                                    <span class="input-group-addon ">经营范围</span>
+                                    <input type="text" class="form-control"  name="runArea" value="{$companyInfo.runarea}">
+                                </div>
+                            </div>
+                            <input type="hidden" name="id" value="{$companyInfo.id}">
+                        </form>
+                    </div>
+                    <div class="addHouse-operate">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-success" style="margin-left: 140px;border-radius: 10%;" onclick="editInfo.edit()">确定</button>
+                                            <button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+                                        </span>
+                    </div>
+                    <!-- 显示房屋信息 -->
+                    <div class="houseInfo-show" style="height: 300px;padding-left: 8px;">
+                        <span style="font-weight: bold;">房屋地址&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.address}</span><br>
+                        <span style="font-weight: bold;">小区名称&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.community|getCommunity}</span><br>
+                        <span style="font-weight: bold;">楼栋号&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.buildnum}</span><br>
+                        <span style="font-weight: bold;">单元号&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.unitnum}</span><br>
+                        <span style="font-weight: bold;">室号&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.roomnum}</span><br>
+                        <span style="font-weight: bold;">房屋主姓名&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.name}</span><br>
+                        <span style="font-weight: bold;">身份证号码&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.cardid}</span><br>
+                        <span style="font-weight: bold;">联系电话&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.phone}</span><br>
+                        <span style="font-weight: bold;">房屋类型&nbsp;:</span>&nbsp;&nbsp;<span style="font-size: 14px;">{$houseInfo.roomtype|getRoomType}</span><br>
+                    </div>
+                    <!-- 显示房屋信息结束 -->
+                </div>
+
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+    <script src="/Public/js/company/editInfo.js"></script>
+</block>

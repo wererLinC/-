@@ -1,0 +1,63 @@
+<extend name="Public:base"/>
+
+<block name="title">车辆管理</title></block>
+
+<block name="header">
+            <li class="active">车辆详情</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="padding: 10px;font-size: 12px;height: 400px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="car-info">
+                    <div class="title">
+                        车辆信息
+                    </div>
+                    <div class="info-content">
+                        <div class="content">
+                            身份证号码：{$carInfo.cardid}<br>
+                            姓名：{$carInfo.name}<br>
+                            电话号码：{$carInfo.phone}<br>
+                        </div>
+                        <div class="content">
+                            车辆品牌：{$carInfo.carbrand}<br>
+                            车牌号码：{$carInfo.carid}<br>
+                            车辆类型：{$carInfo.cartype|getCarType}<br>
+                        </div>
+                        <div class="content">
+                            <span style="margin-right: 5px;">房屋共</span><span style="color:red; ">{$houseCount}</span><span style=";margin-left: 5px;">处:</span><br>
+                            <volist name="houseInfo" id="houseInfo">
+                                <a style="margin-left: 30px;" href="/index.php?m=house&c=information&a=index&id={$houseInfo.id}">{$houseInfo.community|getCommunity}-{$houseInfo.address}-{$houseInfo.buildnum}{$houseInfo.unitnum}{$houseInfo.roomnum}<br></a>
+                            </volist>
+                            <input type="hidden" id="carInfoId" value="{$carInfo.id}">
+                            <div class="content-operate">
+                                <a href="/index.php?m=car&c=edit&a=index&id={$carInfo.id}">修改</a>
+                                <a id="del" style="cursor: pointer;margin-left: 10px;" onclick="delInfo.del()">删除</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+									<button id="fanhui" style="margin-left: 30px;border-radius: 10%;" class="btn btn-success ">返回</button>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 140px;"></div>
+</block>
+
+<block name="js">
+    <script src="/Public/js/car/delInfo.js"></script>
+    <script type="text/javascript">
+        //返回车辆首页
+        $('#fanhui').on('click',function () {
+            window.location.href='/index.php?m=car&c=list&a=index';
+        })
+    </script>
+</block>

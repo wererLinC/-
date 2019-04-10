@@ -1,0 +1,57 @@
+<extend name="Public:base"/>
+
+<block name="title">出租管理</title></block>
+
+<block name="header"><li class="active">出租搜索</li></block>
+
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 550px;padding: 10px;">
+
+        <div class="courst-contenr-border">
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <if condition="$leaseInfo neq null">
+                <tr>
+                    <th style="text-align: center;">使用人身份证</th>
+                    <th style="text-align: center;">使用人姓名</th>
+                    <th style="text-align: center;">联系电话</th>
+                    <th style="text-align: center;">出租类型</th>
+                    <th style="text-align: center;">租聘用途</th>
+                    <th style="text-align: center;">出租日期</th>
+                    <th style="text-align: center;">到期日期</th>
+                </tr>
+                <volist name="leaseInfo" id="leaseInfo">
+                    <tr style="font-size: 12px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=lease&c=information&a=index&id={$leaseInfo.id}'">
+                        <td>{$leaseInfo.usecardid}</td>
+                        <td>{$leaseInfo.usename}</td>
+                        <td>{$leaseInfo.usephone}</td>
+                        <td>{$leaseInfo.leasetype|getLeaseType}</td>
+                        <td>{$leaseInfo.leaseuse|getLeaseUse}</td>
+                        <td>{$leaseInfo.starttime}</td>
+                        <td>{$leaseInfo.endtime}</td>
+                    </tr>
+                </volist>
+                    <else/>
+                    <tr>
+                        <th style="text-align: center;">使用人身份证</th>
+                        <th style="text-align: center;">使用人姓名</th>
+                        <th style="text-align: center;">联系电话</th>
+                        <th style="text-align: center;">出租类型</th>
+                        <th style="text-align: center;">租聘用途</th>
+                        <th style="text-align: center;">出租日期</th>
+                        <th style="text-align: center;">到期日期</th>
+                    </tr>
+                    <tr style="font-size: 14px;color: #8C8C8C;cursor: pointer;" onclick="javascript:history.back(-1);">
+                        <td colspan="7">没有相关信息，点击返回！</td>
+                    </tr>
+                </if>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+
+    </div>
+
+</block>

@@ -1,0 +1,70 @@
+.courst-header{
+    margin: 0 auto;
+    width: 83%;
+    height: 150px;
+}
+
+.courst-content .content-item{
+    width: 280px;
+    height: 120px;
+}
+.courst-content-item .content-item-name{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+.courst-content-item .content-item-number{
+    padding: 15px;
+    text-align: right;
+    float: right;
+    width: 100px;
+    height: 50px;
+}
+.courst-content-item .content-item-operate{
+    font-size: 8px;
+    color: #8C8C8C;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    padding: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+
+.fileDiv{
+    position: absolute;
+    right: 7%;
+    top: 33%;
+    width: 180px;
+    height: 290px;
+    border: 1px solid #F4F6FA;
+}
+
+.fileDiv .title{
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    text-align: left;
+    color: #FECD09;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    background: #F4F6FA;
+}
+
+.fileDiv .title .right{
+    color: #2b303a;
+    margin-left: 65px;
+}
+
+.fileDiv .list{
+    padding: 15px 20px 13px 35px;
+    line-height: 29px;
+    font-size: 12px;
+    background: url(../img/list-yellow.jpg) 17px 20px no-repeat;
+}

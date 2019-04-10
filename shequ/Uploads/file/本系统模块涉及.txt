@@ -1,0 +1,171 @@
+﻿我爱你哦
+											社区php后台的规划设计及需求规范
+							
+//人员
+		People：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //列表及相关操作：
+				
+													View/List/index.html //用于存放人员列表的前端页面
+							huJi()  //列表及相关操作：
+				
+													View/List/huJi.html //用于存放户籍户人员列表的前端页面
+							changZhu()  //列表及相关操作：
+				
+													View/List/changZhu.html //用于存放长住户人员列表的前端页面
+							zanZhu()  //列表及相关操作：
+				
+													View/List/zanZhu.html //用于存放暂住户人员列表的前端页面
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加人员的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除人员的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的人员列表的前端页面
+				
+
+//房子			
+		House：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //房屋列表及相关操作：
+				
+													View/List/index.html //用于存放房屋列表的前端页面													
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加房屋的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除房屋的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的房屋列表的前端页面
+													
+													
+													
+													
+//汽车													
+		Car：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //车辆列表及相关操作：
+				
+													View/List/index.html //用于存放车辆列表的前端页面													
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加车辆的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除车辆的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的车辆列表的前端页面	
+
+
+//企业
+		Company：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //车辆列表及相关操作：
+				
+													View/List/index.html //用于存放企业列表的前端页面													
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加企业的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除企业的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的车辆企业的前端页面
+		
+													
+//出租													
+		Lease：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //车辆列表及相关操作：
+				
+													View/List/index.html //用于存放出租列表的前端页面													
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加出租的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除出租的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的出租的前端页面		
+
+//任务
+		Task：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //车辆列表及相关操作：
+				
+													View/List/index.html //用于存放任务列表的前端页面
+													
+							alRead()//以读的列表及相关操作：
+							
+													View/List/alread.html //用于存放已读任务列表的前端页面
+													
+							unRead()//以读的列表及相关操作：
+							
+													View/List/alread.html //用于存放未读任务列表的前端页面
+				
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加任务的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除任务的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的任务的前端页面
+			
+
+//收费			
+			Charge：
+				View/Public/base.html  //用于存放模板文件，其他的前端都继承于该页面
+				
+				1、list：   index()  //收费列表及相关操作：
+				
+													View/List/index.html //用于存放收费列表的前端页面
+													
+							
+				2、add：    index()  //添加及相关操作：
+				
+													View/Add/index.html //用于存放添加收费的前端页面
+				
+				3、del：    index()  //删除及相关操作：
+				
+													View/Del/index.html //用于删除收费的前端页面
+				
+				4、search： index()  //搜索及相关操作：
+													
+													View/Search/index.html //用于存放搜索到的收费的前端页面
+													
+													
+													
+													

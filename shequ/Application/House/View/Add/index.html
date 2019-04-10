@@ -1,0 +1,96 @@
+<extend name="Public:base"/>
+
+<block name="title">房屋管理</block>
+
+<block name="header">
+    <li class="active">房屋添加</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+                    <form role="form" id="houseInfo" >
+                        <input type="hidden" name="community" value="{$Think.session.admin.community}">
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <span  class="input-group-addon">房屋地址</span>
+                                <input  type="text" class="form-control" id="username" name="address" placeholder="房屋信息">
+                            </div>
+                        </div>
+
+
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">楼栋号</span></span>
+                                <input  style="width: 82px;"  type="text" class="form-control"  name="buildNum" placeholder="楼栋号">
+
+                                <span  class="input-group-addon ">单元号</span></span>
+                                <input  style="width: 82px;"  type="text" class="form-control"  name="unitNum" placeholder="单元号">
+
+                                <span  class="input-group-addon ">室号</span>
+                                <input  style="width: 82px;"  type="text" class="form-control"  name="roomNum" placeholder="室号">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">面积</span>
+                                <input  style="width: 120px;"  type="text" class="form-control"  name="area" placeholder="面积">
+
+                                <span  class="input-group-addon ">类型</span>
+                                <select  id="roomType" name="roomType" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">长住户</option>
+                                    <option value="2">户籍户</option>
+                                    <option value="3">出租户</option>
+                                    <option value="4">暂住户</option>
+                                    <option value="5">为注入</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">身份证号码</span>
+                                <input  type="text" class="form-control"  name="cardId" placeholder="身份证号码">
+                            </div>
+                        </div>
+
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">户主名字</span>
+                                <input  type="text" class="form-control"  name="name" placeholder="户主名字">
+                            </div>
+                        </div>
+
+
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">联系电话</span>
+                                <input  type="text" class="form-control"  name="phone" placeholder="联系电话">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="addHouse-operate" style="bottom: -60px;">
+                    <button class="btn btn-success" style="border-radius:10%;margin-left: 140px;"  onclick="addHouseInfo.add()">确定</button>
+                    <button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+    <script src="/Public/js/house/addHouseInfo.js"></script>
+</block>

@@ -1,0 +1,160 @@
+<extend name="Public:base"/>
+
+<block name="title">出租管理</block>
+
+<block name="header">
+            <li class="active">出租添加</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 500px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+<form id="leaseInfo">
+                    <!-- 手机验证 -->
+    <input type="hidden" name="community" value="{$Think.session.admin.community}">
+                    <div class="form-group" >
+                        <div class="input-group  ">
+                            <span  class="input-group-addon ">楼栋号</span></span>
+                            <input   type="text" class="form-control"  name="buildNum" placeholder="楼栋号">
+
+                            <span  class="input-group-addon ">单元号</span></span>
+                            <input    type="text" class="form-control"  name="unitNum" placeholder="单元号">
+
+                            <span  class="input-group-addon ">室号</span>
+                            <input  type="text" class="form-control"  name="roomNum" placeholder="室号">
+                            <span class="input-group-btn">
+                                <botton   class="btn btn-default" style="width: 140px;"    id="getHouseInfoButton" ><span>获取房东信息</span></botton>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 手机验证 -->
+                    <div class="form-group">
+                        <div class="input-group  ">
+
+                            <span  class="input-group-addon ">出租类型</span>
+                            <select  name="leaseType" data-toggle="select" class="form-control select select-warning mrs">
+                                <option value="1">个人</option>
+                                <option value="2">单位</option>
+                            </select>
+
+                            <span  class="input-group-addon ">出租用途</span>
+                            <select  name="leaseUse" data-toggle="select" class="form-control select select-warning mrs">
+                                <option value="1">居住</option>
+                                <option value="2">办公</option>
+                                <option value="3">商业</option>
+                                <option value="4">其他</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 手机验证 -->
+                    <div class="form-group">
+                        <div class="input-group  ">
+                            <span  class="input-group-addon ">出租时间</span>
+                            <input   type="date" class="form-control"  name="startTime" placeholder="注册日期" />
+                            <span  class="input-group-addon ">到期时间</span>
+                            <input  type="date" class="form-control"  name="endTime" placeholder="到期日期" />
+                        </div>
+
+                    </div>
+
+                    <!-- 校验用 -->
+                    <div class="form-group">
+                        <div class="input-group  ">
+                            <span class="input-group-addon ">使用人姓名</span>
+                            <input type="text" class="form-control"  name="useName" placeholder="请输入使用人姓名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  ">
+                            <span  class="input-group-addon ">使用人身份证</span>
+                            <input type="text" class="form-control"  name="useCardId" placeholder="使用人身份证">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  ">
+                            <span  class="input-group-addon ">使用人电话</span>
+                            <input  type="text" class="form-control"  name="usePhone" placeholder="请输入使用人电话">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  ">
+                            <span class="input-group-addon ">使用单位</span>
+                            <input type="text" class="form-control"  name="useLand" placeholder="请输入使用单位">
+                        </div>
+                    </div>
+
+
+                    </form>
+                </div>
+                <div class="addHouse-operate" style="bottom: -40px;">
+								<span class="input-group-btn">
+									<button class="btn btn-success" style="margin-left: 140px;border-radius: 10%;" onclick="addInfo.add()">确定</button>
+									<button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+    <!--弹出层-->
+    <div id="tanchu" style="font-size: 14px;line-height: 30px;width: 100%;height: 100%;padding-left: 88px;text-align: left;display: none">
+        <span id="communityOne">小区：{$Think.session.admin.community|getCommunity}</span>&nbsp;&nbsp;&nbsp;<span id="addressOne">地址：</span><br>
+        &nbsp;<span id="buildNumOne">楼栋号：</span>&nbsp;<span id="unitNumOne">单元号：</span>&nbsp;<span id="roomNumOne">室号：</span><br>
+        <span id="cardId">身份证号码：</span><br>
+        <span id="nameOne">姓名：</span><br>
+        <span id="phoneOne">电话：</span><br>
+
+    </div>
+</block>
+
+<block name="js">
+    <script src="/Public/js/lease/addInfo.js"></script>
+    <script type="text/javascript">
+        $('#getHouseInfoButton').on('click',function () {
+            $buildNum = $('input[name="buildNum"]').val();
+            $unitNum = $('input[name="unitNum"]').val();
+            $roomNum = $('input[name="roomNum"]').val();
+            data = {
+                'buildNum':$buildNum,
+                'unitNum':$unitNum,
+                'roomNum':$roomNum,
+            }
+            var url= "/index.php?m=lease&c=add&a=getInfo";
+            $.post(url,data,function (result) {
+                if(result.status == 0){
+                    return dialog.error(result.message);
+                }if(result.status == 1){
+                    $('#addressOne').after(result.data.address);
+                    $('#buildNumOne').after(result.data.buildnum);
+                    $('#unitNumOne').after(result.data.unitnum);
+                    $('#roomNumOne').after(result.data.roomnum);
+                    $('#cardId').after(result.data.cardid);
+                    $('#nameOne').after(result.data.name);
+                    $('#phoneOne').after(result.data.phone);
+
+
+                    //在input上给值
+                    $('#name').attr('value',result.data.name);
+                    $('#phone').attr('value',result.data.phone);
+                    return layer.open({
+                        type: 1,
+                        title: result.message,
+                        closeBtn: 1,
+                        btn : ['确定'],
+                        area: ['480px', '280px'], //宽高
+                        content:$('#tanchu'),
+                    });
+
+                }
+            },'JSON')
+        })
+    </script>
+</block>

@@ -1,0 +1,10 @@
+[ 2019-04-11T00:32:21+08:00 ] 112.120.111.247 /index.php?m=admin&c=file&a=fileDown&id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `file` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0005s ]
+

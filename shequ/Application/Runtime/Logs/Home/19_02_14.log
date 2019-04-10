@@ -1,0 +1,2154 @@
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.66 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.66 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.4 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.4 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.66 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2019-02-14T21:53:39+08:00 ] 180.163.220.4 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2019-02-14T21:53:40+08:00 ] 180.163.220.66 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2019-02-14T21:53:41+08:00 ] 42.236.10.117 /index.php?m=home&c=login&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2019-02-14T21:53:42+08:00 ] 42.236.10.124 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2019-02-14T21:53:46+08:00 ] 183.252.78.106 /index.php?m=home&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE ( name="陈伟林" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-02-14T21:53:48+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `file` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2019-02-14T21:55:07+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2019-02-14T21:56:05+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T21:57:03+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2019-02-14T21:58:01+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T21:58:59+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2019-02-14T21:59:57+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2019-02-14T22:00:55+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:01:53+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2019-02-14T22:02:51+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2019-02-14T22:03:49+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2019-02-14T22:04:47+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:05:45+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:06:43+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2019-02-14T22:07:41+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:08:39+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2019-02-14T22:09:37+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2019-02-14T22:10:35+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T22:11:33+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:12:31+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T22:13:29+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2019-02-14T22:14:27+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:15:25+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2019-02-14T22:16:23+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:17:21+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2019-02-14T22:18:19+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:19:17+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2019-02-14T22:20:15+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T22:21:13+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:22:11+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:23:09+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T22:24:07+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2019-02-14T22:25:05+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T22:26:03+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2019-02-14T22:27:01+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T22:27:59+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2019-02-14T22:28:57+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T22:29:55+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2019-02-14T22:30:53+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:31:51+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2019-02-14T22:32:49+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2019-02-14T22:33:47+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2019-02-14T22:34:45+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2019-02-14T22:35:43+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2019-02-14T22:36:03+08:00 ] 67.207.82.249 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `file` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null AND `isComplete` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+
+[ 2019-02-14T22:36:41+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:37:39+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T22:38:37+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2019-02-14T22:39:35+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2019-02-14T22:40:33+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T22:41:31+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2019-02-14T22:42:29+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:43:27+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2019-02-14T22:44:25+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2019-02-14T22:45:23+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2019-02-14T22:46:21+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2019-02-14T22:47:19+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2019-02-14T22:48:17+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2019-02-14T22:49:15+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2019-02-14T22:50:13+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2019-02-14T22:51:11+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2019-02-14T22:52:09+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2019-02-14T22:53:07+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2019-02-14T22:54:05+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:55:03+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:56:01+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2019-02-14T22:56:59+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T22:57:57+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T22:58:55+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2019-02-14T22:59:53+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2019-02-14T23:00:25+08:00 ] 183.252.95.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `file` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null AND `isComplete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2019-02-14T23:00:51+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2019-02-14T23:01:49+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2019-02-14T23:02:47+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2019-02-14T23:03:45+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T23:04:43+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2019-02-14T23:05:41+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T23:06:39+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T23:07:37+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2019-02-14T23:08:35+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2019-02-14T23:09:33+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2019-02-14T23:10:31+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2019-02-14T23:10:38+08:00 ] 201.68.235.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `file` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null AND `isComplete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `fuzeren` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 68 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined index: admin /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2019-02-14T23:11:29+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2019-02-14T23:12:27+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:13:25+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:14:23+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2019-02-14T23:15:21+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2019-02-14T23:16:05+08:00 ] 183.252.95.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `file` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `charge` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `community` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 50 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/shequ/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2019-02-14T23:16:19+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T23:16:27+08:00 ] 183.252.95.131 /index.php?m=home&c=index&a=note
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2019-02-14T23:17:17+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2019-02-14T23:18:15+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2019-02-14T23:19:13+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T23:20:11+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T23:21:09+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T23:22:07+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:23:05+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2019-02-14T23:24:03+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T23:25:01+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2019-02-14T23:25:59+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:26:57+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:27:55+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2019-02-14T23:28:53+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2019-02-14T23:29:51+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2019-02-14T23:30:49+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2019-02-14T23:31:47+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2019-02-14T23:32:45+08:00 ] 183.252.78.106 /index.php?m=home&c=index&a=task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/shequ/Application/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 AND `admin` = '陈伟林' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+

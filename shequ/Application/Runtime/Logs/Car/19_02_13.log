@@ -1,0 +1,69 @@
+[ 2019-02-13T23:11:30+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+
+[ 2019-02-13T23:11:35+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+
+[ 2019-02-13T23:11:48+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+
+[ 2019-02-13T23:12:01+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+
+[ 2019-02-13T23:12:29+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','1')
+
+[ 2019-02-13T23:12:37+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','2')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','劳斯莱斯','闽A-999','陈蔚林','118222015040','12','110','2')
+
+[ 2019-02-13T23:25:00+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: Your requested sheet index: 1 is out of bounds. The actual number of sheets is 1.
+
+[ 2019-02-13T23:25:56+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: Your requested sheet index: 1 is out of bounds. The actual number of sheets is 1.
+
+[ 2019-02-13T23:31:54+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','闽A-999','劳斯莱斯','陈蔚林','111','12','1222','1')
+ERR: 1062:Duplicate entry '12' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','闽A-999','劳斯莱斯','陈蔚林','111','12','1222','1')
+
+[ 2019-02-13T23:36:21+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: Think\Model:getFiled方法不存在！
+
+[ 2019-02-13T23:36:45+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `car` ORDER BY id des LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `car` ORDER BY id des LIMIT 1  
+
+[ 2019-02-13T23:39:36+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','闽A-999','劳斯莱斯','陈蔚林','111','1','1222','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `car` (`carType`,`carBrand`,`carId`,`name`,`cardId`,`id`,`phone`,`community`) VALUES ('1','闽A-999','劳斯莱斯','陈蔚林','111','1','1222','1')
+
+[ 2019-02-13T23:41:01+08:00 ] 127.0.0.1 /index.php?m=car&c=add&a=addExcel
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `car` ORDER BY id des LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `car` ORDER BY id des LIMIT 1  
+

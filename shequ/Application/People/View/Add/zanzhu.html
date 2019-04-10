@@ -1,0 +1,171 @@
+<extend name="Public:base"/>
+
+<block name="title">人员管理</block>
+
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=people&c=list&a=zanzhu">人员管理</a></li>
+            <li class="active">暂住人员添加</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 450px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+                    <form role="form" id="zanZhuInfo" >
+                        <!-- 手机验证 -->
+                        <input type="hidden" name="community" value="{$Think.session.admin.community}">
+                        <input type="hidden" name="roomType" value="3">
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">楼栋号</span></span>
+                                <input  style="font-size: 10px;width: 82px;"  type="text" class="form-control"  name="buildNum" placeholder="楼栋号">
+
+                                <span style="font-size: 10px;" class="input-group-addon ">单元号</span></span>
+                                <input  style="font-size: 10px;width: 82px;"  type="text" class="form-control"  name="unitNum" placeholder="单元号">
+
+                                <span style="font-size: 10px;" class="input-group-addon ">室号</span>
+                                <input style="font-size:10px;width: 82px;"  type="text" class="form-control"  name="roomNum" placeholder="室号">
+                                <span style="font-size: 10px;" class="input-group-btn">
+                                <botton   class="btn btn-default" style="width: 140px;"    id="getHouseInfoButton" ><span>获取房屋信息</span></botton>
+                            </span>
+                            </div>
+
+                        </div>
+
+                        <input type="hidden" name="roomType" value="3">
+
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">身份证号码</span>
+                                <input style="font-size: 10px;" type="text" class="form-control"  name="cardId" placeholder="请输入身份证">
+                            </div>
+                        </div>
+
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">姓名</span>
+                                <input style="font-size: 10px;" type="text" class="form-control"  name="name" placeholder="请输入姓名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">电话</span>
+                                <input style="font-size: 10px;" type="text" class="form-control"  name="phone" placeholder="请输入电话">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">工作单位</span>
+                                <input style="font-size: 10px;" type="text" class="form-control"  name="workLand" placeholder="请输入工作单位">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">户籍地</span>
+                                <input style="font-size: 10px;" type="text" class="form-control"  name="birthLand" placeholder="请输入户籍地">
+                            </div>
+                        </div>
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+				<span style="font-size: 10px;" class="input-group-addon ">性别</span>
+                                <select style="font-size: 10px;" name="sex" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                 </select>
+
+
+
+                                <span style="font-size: 10px;" class="input-group-addon ">职务</span>
+                                <select style="font-size: 10px;" name="position" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">楼栋长</option>
+                                    <option value="2">小组长</option>
+                                    <option value="3">志愿者</option>
+                                    <option value="4">信息员</option>
+                                </select>
+
+                                <span style="font-size: 10px;" class="input-group-addon ">政治面貌</span>
+                                <select style="font-size: 10px;" name="policy" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">中共党员</option>
+                                    <option value="2">共青团员</option>
+                                    <option value="3">群众</option>
+                                    <option value="4">预备党员</option>
+                                    <option value="5">其他民主党派</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+                <div class="addHouse-operate" style="bottom: -85px;">
+								<span class="input-group-btn">
+									<button class="btn btn-success" style="margin-left: 140px;border-radius: 10%;" onclick="addZanZhuInfo.add()">确定</button>
+									<button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--弹出层-->
+    <div id="tanchu" style="line-height: 30px;width: 100%;height: 100%;padding-left: 88px;text-align: left;display: none">
+        <span id="communityOne">小区：{$Think.session.admin.community|getCommunity}</span>&nbsp;&nbsp;&nbsp;<span id="addressOne">地址：</span><br>
+        &nbsp;<span id="buildNumOne">楼栋号：</span>&nbsp;<span id="unitNumOne">单元号：</span>&nbsp;<span id="roomNumOne">室号：</span><br>
+        <span id="cardId">身份证号码：</span><br>
+        <span id="nameOne">姓名：</span><br>
+        <span id="phoneOne">电话：</span><br>
+
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+    <script src="/Public/js/people/addZanZhuInfo.js"></script>
+    <script type="text/javascript">
+        $('#getHouseInfoButton').on('click',function () {
+            $buildNum = $('input[name="buildNum"]').val();
+            $unitNum = $('input[name="unitNum"]').val();
+            $roomNum = $('input[name="roomNum"]').val();
+            data = {
+                'buildNum':$buildNum,
+                'unitNum':$unitNum,
+                'roomNum':$roomNum,
+            }
+            var url= "/index.php?m=people&c=add&a=getInfo";
+            $.post(url,data,function (result) {
+                if(result.status == 0){
+                    return dialog.error(result.message);
+                }if(result.status == 1){
+                    $('#addressOne').after(result.data.address);
+                    $('#buildNumOne').after(result.data.buildnum);
+                    $('#unitNumOne').after(result.data.unitnum);
+                    $('#roomNumOne').after(result.data.roomnum);
+                    $('#cardId').after(result.data.cardid);
+                    $('#nameOne').after(result.data.name);
+                    $('#phoneOne').after(result.data.phone);
+
+                    return layer.open({
+                        type: 1,
+                        title: result.message,
+                        closeBtn: 1,
+                        btn : ['确定'],
+                        area: ['480px', '280px'], //宽高
+                        content:$('#tanchu'),
+                    });
+
+                }
+            },'JSON')
+        })
+    </script>
+</block>

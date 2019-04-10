@@ -1,0 +1,85 @@
+<extend name="Public:base"/>
+
+<block name="title">管理员</block>
+
+<block name="header">
+    <li class="active">管理员修改</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 450px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+                    <form role="form" id="editAdminInfo" >
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <span class="input-group-addon">身份证号码</span>
+                                <input type="text" class="form-control"  name="cardId" value="{$adminInfo.cardid}">
+                            </div>
+                            <span style="color:red;display: none;" class="tips"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon ">管理员姓名</span>
+                                <input type="text" class="form-control"  name="name" value="{$adminInfo.name}">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon ">联系电话</span>
+                                <input type="text" class="form-control"  name="phone" value="{$adminInfo.phone}">
+                            </div>
+                        </div>
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">部门/职务</span>
+                                <input type="text" class="form-control"  name="position" value="{$adminInfo.position}">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon ">户籍地</span>
+                                <input type="text" class="form-control"  name="birthLand" value="{$adminInfo.birthland}">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">性别</span>
+                                <select  name="sex" data-toggle="select" class="form-control select select-warning mrs">
+                                    <if condition="$adminInfo.sex eq 1"><option value="1" selected>男</option><else/><option value="1">男</option></if>
+                                    <if condition="$adminInfo.sex eq 2"><option value="2" selected>女</option><else/><option value="2">女</option></if>
+                                </select>
+                                <span class="input-group-addon ">党员</span>
+                                <select  name="policy" data-toggle="select" class="form-control select select-warning mrs">
+                                    <if condition="$adminInfo.policy eq 1"><option value="1" selected>是</option><else/><option value="1">是</option></if>
+                                    <if condition="$adminInfo.policy eq 2"><option value="2" selected>否</option><else/><option value="2">否</option></if>
+                                </select>
+                            </div>
+                        </div>
+                        <input type="hidden" name="adminType" value="0">
+                        <input type="hidden" name="id" value="{$adminInfo.id}">
+                    </form>
+                </div>
+                <div class="addHouse-operate" style="bottom: -40px;">
+                    <button class="btn btn-success" style="border-radius:10%;margin-left: 250px;"  onclick="editInfo.edit()">确定</button>
+                    <button style="margin-left: 20px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+    <script src="/Public/js/admin/editInfo.js"></script>
+</block>

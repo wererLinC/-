@@ -1,0 +1,378 @@
+[ 2019-02-11T11:45:10+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 34 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\8b4978c8a8296bcf972e35564fcad173.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\8b4978c8a8296bcf972e35564fcad173.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-02-11T11:45:14+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=huji
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 58 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 68 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\78c78e3c8062214227686b5ff8f2fa87.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\78c78e3c8062214227686b5ff8f2fa87.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2019-02-11T11:45:16+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=zanzhu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 105 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 115 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 115 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 120 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 129 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\9c9f4e90c94886e302861466fe893628.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\9c9f4e90c94886e302861466fe893628.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2019-02-11T11:45:16+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=qiaolian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 175 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 176 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 185 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 190 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 195 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 195 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 199 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 199 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\ecdf3b0fd11386eedc00022c4ef7e48f.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\ecdf3b0fd11386eedc00022c4ef7e48f.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-02-11T11:45:17+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=qianchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 222 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 223 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 227 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 232 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 232 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 237 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 242 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 242 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 246 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 246 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6763c9c073db10d8c7d2799b5aaab452.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6763c9c073db10d8c7d2799b5aaab452.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2019-02-11T11:45:18+08:00 ] 127.0.0.1 /index.php?m=people&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `zanzhu` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `qiaolian` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 0 AND `community` = 2 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 34 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\People\Controller\ListController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `people` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qiaolian` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zanzhu` WHERE `isDel` = 1 AND `community` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `people` WHERE `isDel` = 0 AND `community` = 2 AND `roomType` = 1 LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\8b4978c8a8296bcf972e35564fcad173.php 第 49 行.
+NOTIC: [8] Undefined variable: peopleCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\8b4978c8a8296bcf972e35564fcad173.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2019-02-11T11:45:21+08:00 ] 127.0.0.1 /index.php?m=people&c=edit&a=index&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `people` WHERE ( id="5" ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-02-11T11:45:26+08:00 ] 127.0.0.1 /index.php?m=people&c=add&a=index&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0068s ]
+SQL: SELECT `ownerName` FROM `people` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6f7ba2d04e96e90b6d77438934b96068.php 第 38 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6f7ba2d04e96e90b6d77438934b96068.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2019-02-11T11:45:29+08:00 ] 127.0.0.1 /index.php?m=people&c=add&a=qiaolian&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0057s ]
+SQL: SELECT `ownerName` FROM `people` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\c510d69bd2b9c9fbde7bb810ef05286e.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2019-02-11T12:00:39+08:00 ] 127.0.0.1 /index.php?m=people&c=add&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id D:\phpProjects\wampProjects\shequ\Application\People\Controller\AddController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `people` [ RunTime:0.0034s ]
+SQL: SELECT `ownerName` FROM `people` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6f7ba2d04e96e90b6d77438934b96068.php 第 38 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\People\6f7ba2d04e96e90b6d77438934b96068.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2019-02-11T17:00:47+08:00 ] 127.0.0.1 /index.php?m=people&c=add&a=addZanZhu
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `zanzhu` (`community`,`roomType`,`buildNum`,`unitNum`,`roomNum`,`cardId`,`name`,`phone`,`workLand`,`birthLand`,`position`,`policy`) VALUES ('2','3','12','12','12','','陈伟','12','1','2','1','1')
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `zanzhu` (`community`,`roomType`,`buildNum`,`unitNum`,`roomNum`,`cardId`,`name`,`phone`,`workLand`,`birthLand`,`position`,`policy`) VALUES ('2','3','12','12','12','','陈伟','12','1','2','1','1')
+
+[ 2019-02-11T17:02:05+08:00 ] 127.0.0.1 /index.php?m=people&c=add&a=addZanZhu
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `zanzhu` (`community`,`roomType`,`buildNum`,`unitNum`,`roomNum`,`cardId`,`name`,`phone`,`workLand`,`birthLand`,`position`,`policy`) VALUES ('2','3','12','12','12','','陈伟','12','1','2','1','1')
+ERR: 1364:Field 'sex' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `zanzhu` (`community`,`roomType`,`buildNum`,`unitNum`,`roomNum`,`cardId`,`name`,`phone`,`workLand`,`birthLand`,`position`,`policy`) VALUES ('2','3','12','12','12','','陈伟','12','1','2','1','1')
+

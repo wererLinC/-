@@ -1,0 +1,494 @@
+[ 2019-02-11T11:56:44+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 3 LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c7fc9e23d74877d4412879c92671ab1d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-02-11T11:56:46+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2019-02-11T11:56:48+08:00 ] 127.0.0.1 /index.php?m=task&c=information&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `task` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 84 行.
+NOTIC: [8] Undefined index: iscompele D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 96 行.
+NOTIC: [8] Undefined index: iscompele D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2019-02-11T11:56:54+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=completed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 164 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 4 LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\e05526e36c279b5b5bd5c1dc20b4ead1.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2019-02-11T11:56:56+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-02-11T11:56:57+08:00 ] 127.0.0.1 /index.php?m=task&c=information&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `task` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 84 行.
+NOTIC: [8] Undefined index: iscompele D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 96 行.
+NOTIC: [8] Undefined index: iscompele D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\a701f6913de11b4c77ea9f486d1a7da7.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2019-02-11T11:57:01+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=completed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 164 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 4 LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\e05526e36c279b5b5bd5c1dc20b4ead1.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2019-02-11T11:57:02+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2019-02-11T11:57:03+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 3 LIMIT 0,3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c7fc9e23d74877d4412879c92671ab1d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-02-11T11:57:04+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2019-02-11T11:57:05+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 3 LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c7fc9e23d74877d4412879c92671ab1d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-02-11T11:57:05+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2019-02-11T11:57:07+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=completed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 161 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 164 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 4 LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\e05526e36c279b5b5bd5c1dc20b4ead1.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2019-02-11T11:57:08+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 212 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 215 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `task` WHERE `register` = '陈伟林' LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c535ede380b6de9ce44bdb3a8972d88b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-02-11T11:57:09+08:00 ] 127.0.0.1 /index.php?m=task&c=list&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 1 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 2 AND `fuzeren` = '陈伟林' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant isadmin - assumed 'isadmin' D:\phpProjects\wampProjects\shequ\Application\Task\Controller\ListController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `isComplete` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `task` WHERE `register` = '陈伟林' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `task` WHERE `isComplete` = 3 LIMIT 0,3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Task\c7fc9e23d74877d4412879c92671ab1d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002227s ]
+

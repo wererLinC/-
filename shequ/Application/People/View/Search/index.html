@@ -1,0 +1,100 @@
+<extend name="Public:base"/>
+
+<block name="title">人员搜索列表</title></block>
+<block name="css">
+    <link href="/Template/css/peopleList.css" rel='stylesheet' type='text/css' />
+</block>
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=people&c=list&a=index">人员管理</a></li>
+            <li class="active">搜索列表</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <div class="courst-content" style="height: 450px;">
+        <if condition="$peopleInfo neq null">
+            <div class="courst-content-item">
+                <volist name="peopleInfo" id="peopleInfo">
+                    <!-- 人员信息 -->
+                    <if condition="$peopleInfo.roomtype eq 1">
+                        <!-- 人员信息 -->
+                        <div id="content-item" class="content-item indexPeopleTable" style="width: 300px;">
+                            <div id="content-item-name" class="content-item-name" >
+                                <img id="peopleImg" onclick="javascript:location.href='/index.php?m=people&c=information&a=index&id={$peopleInfo.id}' " src="{$peopleInfo.picture}"  alt="个人头像" ／>
+                            </div>
+                            <div id="content-item-number" onclick="javascript:location.href='/index.php?m=people&c=information&a=index&id={$peopleInfo.id}' " class="content-item-number" >
+                                {$peopleInfo.name}&nbsp;&nbsp;&nbsp;<span style="color: #FAC52C">【{$peopleInfo.policy|getPolicy}】</span><br>
+                                <span style="color: #888888">性别：{$peopleInfo.sex|getSex}</span>&nbsp;&nbsp;<span style="color: #888888">民族：{$peopleInfo.nation}</span><br>
+                                <span style="color: #888888">[工作单位]:{$peopleInfo.workland}</span>
+                            </div>
+                            <div id="content-item-operate" class="content-item-operate" >
+                                <a  href="/index.php?m=people&c=edit&a=index&id={$peopleInfo.id}">修改资料</a>&nbsp;&nbsp;
+                                <a  id="operateBut" attr-id="{$peopleInfo.id}">添加操作</a>
+                            </div>
+
+                            <div id="{$peopleInfo.id}" class="addPeopleOperate" >
+                                <a style="padding: 8px;" href="/index.php?m=people&c=add&a=index&id={$peopleInfo.id}">成员</a><br><hr style="margin: 3px;padding: 0">
+                                <a style="padding: 8px;" href="/index.php?m=people&c=add&a=qiaolian&id={$peopleInfo.id}">侨联<a><br>
+                            </div>
+                        </div>
+                        <!-- 人员信息结束 -->
+                    </if>
+                    <if condition="$peopleInfo.roomtype eq 2">
+                        <!-- 人员信息 -->
+                        <div id="content-item" class="content-item hujiPeopleTable" style="width: 300px;">
+                            <div id="content-item-name" class="content-item-name" >
+                                <img id="peopleImg" onclick="javascript:location.href='/index.php?m=people&c=information&a=index&id={$peopleInfo.id}' " src="{$peopleInfo.picture}"  alt="个人头像" ／>
+                            </div>
+                            <div id="content-item-number" onclick="javascript:location.href='/index.php?m=people&c=information&a=index&id={$peopleInfo.id}' " class="content-item-number" >
+                                {$peopleInfo.name}&nbsp;&nbsp;&nbsp;<span style="color: #FAC52C">【{$peopleInfo.policy|getPolicy}】</span><br>
+                                <span style="color: #888888">性别：{$peopleInfo.sex|getSex}</span>&nbsp;&nbsp;<span style="color: #888888">民族：{$peopleInfo.nation}</span><br>
+                                <span style="color: #888888">[工作单位]:{$peopleInfo.workland}</span>
+                            </div>
+                            <div id="content-item-operate" class="content-item-operate" >
+                                <a  href="/index.php?m=people&c=edit&a=index&id={$peopleInfo.id}">修改资料</a>&nbsp;&nbsp;
+                                <a  id="operateBut" attr-id="{$peopleInfo.id}">添加操作</a>
+                            </div>
+
+                            <div id="{$peopleInfo.id}" class="addPeopleOperate" >
+                                <a style="padding: 8px;" href="/index.php?m=people&c=add&a=huji&id={$peopleInfo.id}">成员</a><br><hr style="margin: 3px;padding: 0">
+                                <a style="padding: 8px;" href="/index.php?m=people&c=add&a=qiaolian&id={$peopleInfo.id}">侨联<a><br>
+                            </div>
+                        </div>
+                        <!-- 人员信息结束 -->
+                    </if>
+                    <!-- 人员信息结束 -->
+                </volist>
+            </div>
+            <else/>
+            <span style="color: red">没有相关记录</span>
+        </if>
+</block>
+<script>
+    //添加人员按钮
+    $(function() {
+
+        $(".indexPeopleTable #operateBut").on('click',function () {
+            var id = $(this).attr('attr-id');
+            $('#'+id).toggle();
+        });
+    });
+
+    //添加人员按钮
+    $(function() {
+
+        $(".hujiPeopleTable #operateBut").on('click',function () {
+            var id = $(this).attr('attr-id');
+            $('#'+id).toggle();
+        });
+    });
+
+</script>
+
+</block>
+
+
+

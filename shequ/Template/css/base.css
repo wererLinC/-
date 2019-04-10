@@ -1,0 +1,361 @@
+
+/*首页*/
+.courst-header{
+	margin: 0 auto;
+	width: 83%;
+	height: 200px;
+}
+
+.courst-header .header-search{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:70%;
+	top: 80px;
+}
+
+.courst-header .header-logo{
+	width: 30%;
+	height: 100%;
+	margin: 9px 9px;
+}
+
+.courst-header .header-logo img{
+	width: 100%;
+	height: 100%;
+}
+
+/*列表操作*/
+.courst-operate{
+	margin-bottom: 10px;
+	margin-top: 40px;
+	padding-top: 20px;
+	position: relative;
+	width: 100%;
+}
+
+.courst-operate .operate-item{
+	margin-left: 150px;
+	width: 30%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+}
+.courst-operate .operate-search{
+	width: 30%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+}
+/*操作结束*/
+
+
+
+/*首页内容*/
+.courst-content{
+	padding: 40px  0 0px 100px;
+	width: 100%;
+	height: 620px;
+}
+.courst-content-item{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+.courst-content .content-item{
+	margin: 5px;
+	border: 1px solid #E8E8E8;
+	float: left;
+	width: 400px;
+	height: 200px;
+	position: relative;
+}
+
+.courst-content-item .content-item-name{
+	font-size: 18px;
+	padding: 30px;
+	float: left;
+	width: 150px;
+	height: 50px;
+}
+
+.courst-content-item .content-item-number{
+	padding: 30px;
+	text-align: right;
+	float: right;
+	width: 150px;
+	height: 50px;
+}
+.courst-content-item .content-item-operate{
+	font-size: 12px;
+	color: #8C8C8C;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+	padding: 30px;
+	width: 200px;
+	height: 50px;
+}
+
+.courst-content .content-item:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+	-moz-box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+	box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+}
+
+/*首页内容结束*/
+
+.courst-contenr-border{
+	padding: 15px;
+	margin: 0 auto;
+	width: 90%;
+	height: 90%;
+	border: 1px solid #E8E8E8;
+}
+
+.courst-foot{
+	width: 100%;
+	height: 100%;
+}
+
+.foot-des{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.courst-bread{
+	width: 90%;
+	margin:0 auto;
+}
+
+.mouse-a:hover{
+	cursor: pointer;
+}
+
+/*任务*/
+.taskContent{
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1 solid #F3F5F7;
+}
+.taskOperate{
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	padding: 5px;
+}
+
+.taskOperate span{
+	font-size: 12px;
+	text-align: left;
+}
+
+.taskItemContent{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.taskItemContent span{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.taskItemContent .container span:hover{
+	cursor: pointer;
+}
+
+/*分页*/
+.page{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*住户列表资料*/
+
+.courst-header .item{
+	margin-top: 60px;
+	width: 350px;
+	height: 100px;
+	float: left;
+}
+
+.courst-header .item img{
+	border-radius:100%;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.courst-header .item  .item-info{
+	width: 250px;
+	height: 100px;
+	float: right;
+}
+
+.courst-header .item-task{
+	font-size: 25px;
+	color: #eeeeee;
+	margin-top: 60px;
+	float: right;
+}
+
+
+
+.courst-header .item  .item-info .item-level{
+	padding: 0 2px 0 20px;
+	color: #f7b52c;
+	font-size: 12px;
+	float: right;
+}
+
+.courst-header .item  .item-info .item-name{
+	padding:13px 18px;
+	color: #000;
+	font-size: 15px;
+}
+
+.courst-header .item .phone{
+	background-position: 1px -0;
+}
+
+.courst-header .item  .item-info .item-address,
+.courst-header .item  .item-info .item-phone,
+.courst-header .item  .item-info .item-time{
+	margin-bottom: 8px;
+	font-size: 13px;
+	color: #888;
+	line-height: 17px;
+	padding-left: 22px;
+	background-position: 1px -36px;
+}
+
+
+/*添加房屋,车辆,出租.企业等等操作*/
+
+.addHouse-content{
+	position: relative;
+	text-align: center;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.addHouse-operate{
+	position: absolute;
+	bottom: 50px;
+	line-height: 50px;
+	text-align: center;
+	height: 150px;
+	width: 1000px;
+}
+.houseInfo-show{
+	padding: 3px;
+	line-height: 30px;
+	text-align: left;
+	position: absolute;
+	top: 0px;
+	width: 250px;
+	height: 100%;
+}
+
+.houseInfo-show{
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+	-moz-box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+	box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.15);
+}
+/*添加房屋操作结束*/
+
+
+/*住户,车辆,房屋,企业,出租等等信息*/
+
+.people-info{
+	width: 1100px;
+	height: 100%;
+	border: 1px solid #F0F2F5;
+}
+
+.people-info .info-content{
+	width: 1100px;
+	height: 100%;
+}
+
+.people-info .content .content-operate{
+	font-size: 14px;
+	color: #8C8C8C;
+	text-align: right;
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+}
+
+.people-info .title{
+	font-size: 18px;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 20px;
+}
+
+.people-info .renyuan-info{
+	padding: 20px;
+	width: 1000px;
+	height: 300px;
+}
+
+.people-info .house-info{
+	padding: 20px;
+	width: 1000px;
+	height: 300px;
+}
+
+.people-info .car-info{
+	padding: 20px;
+	width: 1000px;
+	height: 300px;
+}
+
+.people-info .company-info{
+	padding: 20px;
+	width: 1000px;
+	height: 300px;
+}
+
+.people-info .info-content .content{
+	line-height: 30px;
+	text-align: left;
+	padding: 50px;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.people-info-operate{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/*人员信息结束*/
+
+
+
+
+
+
+

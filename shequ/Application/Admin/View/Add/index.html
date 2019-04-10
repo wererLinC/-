@@ -1,0 +1,100 @@
+<extend name="Public:base"/>
+
+<block name="title">管理员</block>
+
+<block name="header">
+    <li class="active">管理员添加</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 450px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+                    <form role="form" id="adminInfo" >
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">所属社区</span>
+                                <select  name="community" data-toggle="select" class="form-control select select-warning mrs">
+                                    <volist name="community" id="community">
+                                        <option value="{$community.id}">{$community.community}</option>
+                                    </volist>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <span style="font-size: 10px;" class="input-group-addon">身份证号码</span>
+                                <input  type="text" class="form-control"  name="cardId" placeholder="身份证号码">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span style="font-size: 12px;" class="input-group-addon ">管理员姓名</span>
+                                <input  type="text" class="form-control"  name="name" placeholder="姓名">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span style="font-size: 10px;" class="input-group-addon ">联系电话</span>
+                                <input  type="text" class="form-control"  name="phone" placeholder="联系电话">
+                            </div>
+                        </div>
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 12px;" class="input-group-addon ">部门/职务</span>
+                                <input  type="text" class="form-control"  name="position" placeholder="部门/职务">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span style="font-size: 10px;" class="input-group-addon ">户籍地</span>
+                                <input  type="text" class="form-control"  name="birthLand" placeholder="户籍地">
+                            </div>
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span style="font-size: 10px;" class="input-group-addon ">性别</span>
+                                <select  style="width: 142px;" name="sex" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                </select>
+                                <span style="font-size: 12px;" class="input-group-addon ">党员</span>
+                                <select  style="width: 142px;" name="policy" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">是</option>
+                                    <option value="2">否</option>
+                                </select>
+                                <span style="font-size: 10px;" class="input-group-addon ">书记？</span>
+                                <select style="width: 142px;" name="isAdmin" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="0">否</option>
+                                    <option value="1">是</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="addHouse-operate" style="bottom: -90px;">
+                    <button class="btn btn-success" style="border-radius:10%;margin-left: 250px;"  onclick="addInfo.add()">确定</button>
+                    <button style="margin-left: 20px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+</block>
+
+<block name="js">
+    <script src="/Public/js/admin/addInfo.js"></script>
+</block>

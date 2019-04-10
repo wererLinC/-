@@ -1,0 +1,74 @@
+[ 2019-02-03T22:22:05+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=zanzhu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+ERR: 非法操作:zanzhu
+
+[ 2019-02-03T22:22:09+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2019-02-03T22:22:30+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Car\Controller\ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `car` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Car\6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-02-03T22:22:31+08:00 ] 127.0.0.1 /index.php?m=car&c=list&a=zanzhu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: 非法操作:zanzhu
+

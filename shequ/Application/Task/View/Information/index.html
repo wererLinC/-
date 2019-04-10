@@ -1,0 +1,106 @@
+<extend name="Public:base"/>
+
+<block name="title">事件管理</title></block>
+
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=lease&c=list&a=index">事件管理</a></li>
+            <li class="active">事件详情</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;padding: 10px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="house-info">
+                    <div class="title">
+                        事件详情
+                    </div>
+                    <div class="info-content">
+                        <div class="content">
+                            编号：{$taskInfo.id}<br>
+                            事件发生时间：{$taskInfo.starttime}<br>
+                            登记人：{$taskInfo.register}<br>
+                            地址：{$taskInfo.address}<br>
+                        </div>
+                        <div class="content">
+                            当事人姓名：{$taskInfo.name}<br>
+                            身份证号码：{$taskInfo.cardid}<br>
+                            联系电话：{$taskInfo.phone}<br>
+                            事件内容：{$taskInfo.eventtype|getEventType}<br>
+                        </div>
+                        <div class="content">
+                            事件简述：{$taskInfo.eventcontent}<br>
+                            事件简述：{$taskInfo.eventresult}<br>
+                            负责人：{$taskInfo.fuzeren}<br>
+                            <if condition="$taskInfo.iscompele eq 1">
+                                状态：<span style="color: red;">未读</span><br>
+                            <elseif condition="$taskInfo.iscomplete eq 2" />
+                                    状态：<span style="color: red;">待处理<br></span>
+                            <elseif condition="$taskInfo.iscomplete eq 3" />
+                                        状态：<span style="color: red;">待审核</span><br>
+                            <else />
+                                结案时间：{$taskInfo.endtime}<br>
+                                审核人：{$taskInfo.admin}<br>
+                                状态：<span style="color: red;">已经完成</span><br>
+                            </if>
+                            <input id="taskId" type="hidden" value="{$taskInfo.id}">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+                                    <!--判断是不是管理员-->
+                                    <if condition="$Think.session.admin.isadmin neq 1">
+                                        <!--判断完成状态-->
+                                        <if condition="$taskInfo.iscompele eq 1">
+                                            <input type="hidden" id="receiveId" value="{$taskInfo.id}">
+                                        <a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " id="receiveBut" >领取</a>
+                                        <elseif condition="$taskInfo.iscomplete eq 2 and $Think.session.admin.name eq $taskInfo['fuzeren']" />
+                                            <a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " id="completingBtn">处理</a>
+                                        <else />
+
+                                        </if>
+                                    <else/>
+                                        <if condition="$taskInfo.iscompele eq 2">
+                                            <input type="hidden" id="tipsId" value="{$taskInfo.id}">
+                                        <a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " >提醒</a>
+                                        <elseif condition="$taskInfo.iscomplete eq 3" />
+                                            <input type="hidden" id="verifyId" value="{$taskInfo.id}">
+                                            <a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " id="verify">审核</a>
+                                        <elseif condition="$taskInfo.iscomplete eq 4" />
+                                            <input type="hidden" id="delId" value="{$taskInfo.id}">
+                                            <a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " id="del">删除</a>
+                                            <else/>
+                                        </if>
+                                    </if>
+									<a style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onClick="javascript :history.back(-1);" >返回</a>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 140px;"></div>
+<div id="completingDiv" style="width: 100%;height: 100%;display: none">
+    <div style="margin:0 auto;width: 360px;height: 160px;margin-top: 10px">
+<textarea style="width: 360px;height: 160px;" id="eventResult" name="eventResult"></textarea>
+    </div>
+</div>
+
+</block>
+
+<block name="js">
+    <script src="/Public/js/task/del.js"></script>
+    <script src="/Public/js/task/verify.js"></script>
+    <script src="/Public/js/task/receive.js"></script>
+    <script src="/Public/js/task/completing.js"></script>
+</block>

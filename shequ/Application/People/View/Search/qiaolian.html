@@ -1,0 +1,81 @@
+<extend name="Public:base"/>
+
+<block name="title">人员搜索列表</title></block>
+<block name="css">
+    <link href="/Template/css/peopleList.css" rel='stylesheet' type='text/css' />
+</block>
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=people&c=list&a=index">人员管理</a></li>
+            <li class="active">搜索列表</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <div class="courst-content" style="height: 450px;">
+        <if condition="$peopleInfo neq null">
+            <div class="courst-content-item">
+                <volist name="peopleInfo" id="peopleInfo">
+                    <!-- 人员信息 -->
+                    <div id="content-item" class="content-item qiaolianTable" style="width: 300px;">
+                        <div id="content-item-name" class="content-item-name" style="width: 180px;" onclick="javascript:location.href='/index.php?m=people&c=information&a=qiaolian&id={$peopleInfo.id}' ">
+                            <span style="font-size: 12px;color: #888888">名字：{$peopleInfo.name}</span><br>
+                            <span style="font-size: 12px;color: #888888">户主名字:{$peopleInfo.ownername}</span><br>
+                            <span style="font-size: 12px;color: #888888">[与户主关系]:{$peopleInfo.ownerrelative|getRelative}</span>
+                        </div>
+                        <div id="content-item-number"  class="content-item-number" style="position:absolute;top: 8px;right: 5px" onclick="javascript:location.href='/index.php?m=people&c=information&a=qiaolian&id={$peopleInfo.id}' ">
+                            <span style="font-size: 12px;color: #888888">居住国家：{$peopleInfo.country}</span><br>
+                            <span style="font-size: 12px;color: #888888">类型:{$peopleInfo.type|getQiaoLianType}</span><br>
+                        </div>
+                        <input id="peopleId" type="hidden" value="{$peopleInfo.id}">
+                        <div id="content-item-operate" class="content-item-operate">
+                            <a href="/index.php?m=people&c=edit&a=qiaolian&id={$peopleInfo.id}">修改资料</a>&nbsp;&nbsp;
+                            <!--<a onclick="delQiaoLianInfo.del()">迁出</a>-->
+                            <a id="delId" attr-id="{$peopleInfo.id}">迁出</a>
+                        </div>
+                    </div>
+                    <!-- 人员信息结束 -->            </volist>
+            </div>
+            <else/>
+            <span style="color: red">娌℃湁鐩稿叧璁板綍</span>
+        </if>
+</block>
+
+<block name="js">
+    <script type="text/javascript">
+        //迁出操作
+        $('.qiaolianTable #delId').on('click',function () {
+            var id = $(this).attr('attr-id');
+            var postData = {
+                'id':id,
+            }
+            layer.open({
+                content : "确定迁出？？",
+                icon:3,
+                btn : ['是','否'],
+                yes : function(){
+                    url = '/index.php?m=people&c=del&a=qiaolian';
+                    $.post(url,postData,function(result) {
+                        if(result.status == 1) {
+                            //成功
+                            window.location.href='/index.php?m=people&c=list&a=qiaolian';
+                        }else if(result.status == 0) {
+                            // 失败
+                            return dialog.error(result.message);
+                        }
+                    },"JSON");
+                },
+            });
+
+        });        //添加函数
+        $('#addpeople').on('click',function () {
+            window.location.href='/index.php?m=people&c=add&a=qiaolian';
+        });
+    </script>
+</block>
+
+
+

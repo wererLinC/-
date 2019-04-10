@@ -1,0 +1,245 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><block name="title">社区首页</block></title>
+	<!-- Bootstrap Core CSS -->
+	<link href="/Template/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<!-- Custom CSS -->
+	<link href="/Template/css/style.css" rel='stylesheet' type='text/css' />
+	<link href="/Template/css/base.css" rel='stylesheet' type='text/css' />
+	<!-- Graph CSS -->
+	<!-- //lined-icons -->
+	<script src="/Template/js/jquery-1.10.2.min.js"></script>
+	<style type="text/css">
+		.modal-dialog-box{
+			width: 1000px;
+			height: 100%;
+		}
+		.pagination{
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body style="font-size: 12px;">
+<div class="page-container" style="min-width: 80%;">
+	<!--/content-inner-->
+	<div class="left-content">
+		<div class="inner-content">
+			<!-- header-starts -->
+			<div class="header-section">
+				<!-- top_bg -->
+				<div class="top_bg">
+					<div class="header_top">
+						<div class="top_right">
+							<ul>
+								<li><a href="">联系电话：17720743412</a></li>|
+								<li><a class="mouse-a" data-toggle="modal" data-target="#help">帮助</a></li>|
+								<li><a href="/index.php?m=home&c=login&a=logout">退出</a></li>
+							</ul>
+						</div>
+						<div class="top_left">
+							<input type="hidden" id="isAdmin" value="{$Think.session.admin.isadmin}">
+							<span style="color: white;cursor: pointer" class="glyphicon glyphicon-bell" onclick="javascript:location.href='/index.php?m=task&c=list&a=index' "></span>
+							<if condition="$taskCount eq 0">
+								<else/>
+								<sup style="color: red">{$taskCount}</sup>
+							</if>
+							<span style="color: white;margin-left: 15px;cursor: pointer;font-size: 14px" onclick="javascript:location.href='/index.php?m=admin&c=information&a=index&id={$Think.session.admin.id}'">个人中心</span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<!-- 面包屑 -->
+			<div class="courst-bread" style="margin-top: 20px;">
+				<ol class="breadcrumb">
+					<li><a href="/index.php">首页</a></li>
+					<li><a href="/index.php?m=company&c=list&a=index">企业管理</a></li>
+					<block name="header"><li class="active">房屋添加</li></block>
+				</ol>
+			</div>
+			<!-- 面包屑结束 -->
+			<!-- 头部结束 -->
+
+			<hr size="5px">
+			<block name="content">
+				<!-- 内容开始 -->
+				<div class="courst-content">
+					<div class="courst-content-item">
+						<!-- 小区 -->
+						<div class="content-item" onclick="javascript:location.href='./list/houseList.html' ">
+							<div class="content-item-name">
+								房屋
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addHouse.html">添加房屋</a>&nbsp;&nbsp;导入房屋
+							</div>
+						</div>
+						<!-- 房屋 -->
+						<div class="content-item" onclick="javascript:location.href='./list/peopleList.html'">
+							<div class="content-item-name">
+								住户
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addPeople.html">添加住户</a>&nbsp;&nbsp;导入住户
+							</div>
+						</div>
+						<!-- 住户 -->
+						<div class="content-item" onclick="javascript:location.href='./list/carList.html'">
+							<div class="content-item-name">
+								车辆
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addCar.html">添加车辆</a>&nbsp;&nbsp;导入车辆
+							</div>
+						</div>
+						<!-- 车辆 -->
+						<div class="content-item" onclick="javascript:location.href='./list/leaseList.html'">
+							<div class="content-item-name">
+								出租
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addLease.html">添加出租</a>&nbsp;&nbsp;导入出租
+							</div>
+						</div>
+						<!-- 商铺企业 -->
+						<div class="content-item" onclick="javascript:location.href='./list/companyList.html'">
+							<div class="content-item-name">
+								商铺
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addCompany.html">添加商铺</a>&nbsp;&nbsp;导入商铺
+							</div>
+						</div>
+						<!-- 任务 -->
+						<div class="content-item" onclick="javascript:location.href='./list/taskList.html' ">
+							<div class="content-item-name">
+								任务
+							</div>
+							<div class="content-item-number">
+								0个
+							</div>
+							<div class="content-item-operate">
+								<a href="./add/addTask.html">添加任务</a>&nbsp;&nbsp;未完成任务
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</block>
+			<!-- 内容结束 -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 左边菜单 -->
+		<div class="sidebar-menu" style="min-width: 14%;">
+			<div class="menu">
+				<ul id="menu" >
+					<li><a><span class="glyphicon glyphicon-asterisk"></span>&nbsp;<span>菜单管理</span></a></li>
+
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;<span>添加信息</span> <span class="fa fa-angle-right" style="float: right">&gt;</span></a>
+
+					</li>
+
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;<span> 人员</span> <span class="fa fa-angle-right" style="float: right">&gt;</span></a>
+
+					</li>
+
+					<li><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;<span> 房屋</span><span class="fa fa-angle-right" style="float: right">&gt;</span></a>
+
+					</li>
+
+					<li><a href="#"><span class="glyphicon glyphicon-plane"></span>&nbsp;<span>车辆</span><span class="fa fa-angle-right" style="float: right">&gt;</span></a>
+
+					</li>
+
+					<li><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;<span>任务</span><span class="fa fa-angle-right" style="float: right">&gt;</span></a>
+
+					</li>
+
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="/Template/js/bootstrap.min.js"></script>
+	<script src="/Public/js/dialog/layer.js"></script>
+	<script src="/Public/js/dialog.js"></script>
+
+	<block name="js"></block>
+
+	<script type="text/javascript">
+		<!--定时向后台访问，看有没有未读或者未处理事件-->
+		var num = Math.round(Math.random()*90+60);
+		//循环执行，每隔60-150秒钟执行一次showMsgIcon()
+		window.setInterval(taskTip, 5000*num);
+		function taskTip(){
+			$isAdmin = $('#isAdmin').val();
+			postData={
+				'isAdmin':$isAdmin,
+			}
+			url = '/index.php?m=home&c=index&a=task';
+			$.post(url,postData,function (result) {
+				if(result.status == 0){
+					window.location.reload();
+				}else if(result.status == 1){
+					layer.open({
+						content : result.message,
+						icon : 1,
+						yes : function(){
+							clearInterval(taskTip);
+							location.href='/index.php?m=task&c=list&a=index';
+						},
+					});
+				}else if(result.status == 2){
+					layer.open({
+						content : result.message,
+						icon : 1,
+						yes : function(){
+							clearInterval(taskTip);
+							location.href='/index.php?m=task&c=list&a=completing';
+						},
+					});
+				}
+				else if(result.status == 3){
+					layer.open({
+						content : result.message,
+						icon : 1,
+						yes : function(){
+							clearInterval(taskTip);
+							location.href='/index.php?m=task&c=list&a=verify';
+						},
+					});
+				}
+			},"JSON");
+		}
+
+	</script>
+</body>
+</html>

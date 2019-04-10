@@ -1,0 +1,57 @@
+<extend name="Public:base"/>
+
+<block name="title">企业管理</title></block>
+
+<block name="header">
+    <li class="active">企业详情</li>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="height: 400px;">
+        <div class="courst-content-item">
+            <div class="people-info">
+                <div class="renyuan-info">
+                    <div class="title">
+                        企业信息
+                    </div>
+                    <div class="info-content">
+                        <div class="content">
+                            法人身份证号码：{$companyInfo.usecardid}<br>
+                            法人姓名：{$companyInfo.usename}<br>
+                            法人电话：{$companyInfo.usephone}<br>
+                            政治面貌：{$companyInfo.policy|getPolicy}
+                        </div>
+                        <div class="content">
+                            注册资本：{$companyInfo.capital}<br>
+                            从业人员：{$companyInfo.staff}<br>
+                            社会信用代码：{$companyInfo.creditnumber}<br>
+                            注册时间：{$companyInfo.regdata}
+                        </div>
+                        <div class="content">
+                            <input type="hidden" id="companyId" value="{$companyInfo.id}">
+                            房屋地址：<br>
+                            <a style="margin-left: 60px;" href="/index.php?m=house&c=information&a=index&id={$houseInfo.id}">{$houseInfo.community|getCommunity}{$houseInfo.buildnum}{$houseInfo.unitnum}{$houseInfo.roomnum}<br></a>
+                            <div class="content-operate">
+                                <a href="/index.php?m=company&c=edit&a=index&id={$companyInfo.id}">修改</a>
+                                <a id="del" style="cursor: pointer;margin-left: 10px;" onclick="delInfo.del()">删除</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-info-operate">
+								<span class="input-group-btn">
+									<button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript:history.back(-1);">返回</button>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+    <div style="margin-top: 140px;"></div>
+</block>
+
+<block name="js">
+    <script src="/Public/js/company/delInfo.js"></script>
+</block>

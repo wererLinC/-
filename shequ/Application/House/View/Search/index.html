@@ -1,0 +1,52 @@
+<extend name="Public:base"/>
+
+<block name="title">房屋管理</title></block>
+
+<block name="header">
+            <li class="active">房屋搜索列表</li>
+</block>
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 550px;padding: 10px;">
+
+        <div class="courst-contenr-border">
+
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <tr>
+                    <th style="text-align: center;">房屋地址</th>
+                    <th style="text-align: center;">小区名称</th>
+                    <th style="text-align: center;">楼栋号·室号</th>
+                    <th style="text-align: center;">身份证</th>
+                    <th style="text-align: center;">姓名</th>
+                    <th style="text-align: center;">联系电话</th>
+                    <th style="text-align: center;">房屋类型</th>
+                </tr>
+                <if condition="$houseInfo neq null">
+                <volist name="houseInfo" id="houseInfo">
+                    <tr style="font-size: 12px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=house&c=information&a=index&id={$houseInfo.id}'">
+                        <td>{$houseInfo.address}</td>
+                        <td>{$houseInfo.community|getCommunity}</td>
+                        <td>{$houseInfo.buildnum}--{$houseInfo.unitnum}--{$houseInfo.roomnum}</td>
+                        <td>{$houseInfo.cardid}</td>
+                        <td>{$houseInfo.name}</td>
+                        <td>{$houseInfo.phone}</td>
+                        <td>{$houseInfo.roomtype|getRoomType}</td>
+                    </tr>
+                </volist>
+                    <else/>
+                    
+                    <tr style="font-size: 14px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=house&c=list&a=index'">
+                        <td colspan="7">没有相关资料,点击返回</td>
+                    </tr>
+                </if>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+<div style="margin-top: 20px;">
+
+</div>
+</block>

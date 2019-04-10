@@ -1,0 +1,147 @@
+<extend name="Public:base"/>
+
+<block name="title">事件管理</block>
+
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+    <li><a href="/index.php">首页</a></li>
+    <li><a href="/index.php?m=lease&c=list&a=index">事件管理</a></li>
+    <li class="active">事件登记</li>
+        </ol>
+    </div>
+</block>
+
+<block name="content">
+    <!-- 内容开始 -->
+    <div class="courst-content" style="padding: 10px;height: 500px;">
+        <div class="courst-content-item">
+            <div class="addHouse-content">
+                <div style="height: 100%;width: 600px;margin: 0 auto;margin-top: 30px;">
+
+                    <form role="form" id="eventInfo" enctype="multipart/form-data">
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">当事人身份证</span></span>
+                                <input  type="text" class="form-control"  name="cardId" placeholder="身份证号码">
+                                <span  class="input-group-btn">
+                                <botton   class="btn btn-default" style="width: 140px;"    id="getEventInfoButton" ><span>获取当事人信息</span></botton>
+                            </span>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">事件地址</span>
+                                <input  type="text" class="form-control" id="address" name="address" placeholder="请输入地址">
+                            </div>
+                        </div>
+                        <!-- 校验用 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">当事人姓名</span>
+                                <input  type="text" class="form-control" id="name"  name="name" placeholder="请输入当事人姓名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">当事人电话</span>
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入当事人电话">
+                            </div>
+                        </div>
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">事件类型</span>
+                                <select  name="eventType" data-toggle="select" class="form-control select select-warning mrs">
+                                    <option value="1">物业管理</option>
+                                    <option value="2">邻里纠纷</option>
+                                    <option value="3">投诉</option>
+                                    <option value="4">建议</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span  class="input-group-addon ">事件简述</span>
+                                <textarea type="text" class="form-control"  name="eventContent" placeholder="事件处理简述"></textarea>
+                            </div>
+
+                        </div>
+
+                        <!-- 手机验证 -->
+                        <div class="form-group">
+                            <div class="input-group  ">
+                                <span class="input-group-addon ">负责人</span>
+                                <select  name="fuzeren" data-toggle="select" class="form-control select select-warning mrs">
+                                    <volist name="fuzeren" id="fuzeren">
+                                        <option value="{$fuzeren.name}">{$fuzeren.name}</option>
+                                    </volist>
+                                </select>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="addHouse-operate" style="bottom: -40px;">
+								<span class="input-group-btn">
+									<button class="btn btn-success" style="margin-left: 140px;border-radius: 10%;" onclick="addInfo.add()">确定</button>
+									<button style="margin-left: 30px;border-radius: 10%;" class="btn btn-success " onclick="javascript :history.back(-1);">返回</button>
+								</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+<!--弹出层-->
+<div id="tanchu" style="line-height: 30px;width: 100%;height: 100%;padding-left: 88px;text-align: left;display: none">
+    <span id="cardId">身份证号码：</span><br>
+    <span id="nameOne">姓名：</span><br>
+    <span id="phoneOne">电话：</span><br>
+    <span id="addressOne">地址：</span><br>
+</div>
+</block>
+
+<block name="js">
+    <script src="/Public/js/task/addInfo.js"></script>
+    <script type="text/javascript">
+        $('#getEventInfoButton').on('click',function () {
+            $cardId = $('input[name="cardId"]').val();
+            data = {
+                'cardId':$cardId,
+            }
+            var url= "/index.php?m=task&c=add&a=getInfo";
+            $.post(url,data,function (result) {
+                if(result.status == 0){
+                    return dialog.error(result.message);
+                }if(result.status == 1){
+                    $('#cardId').after(result.data[0].cardid);
+                    $('#nameOne').after(result.data[0].name);
+                    $('#phoneOne').after(result.data[0].phone);
+                    $('#addressOne').after(result.data[0].address);
+
+                    //在input上给值
+                    $('#name').attr('value',result.data[0].name);
+                    $('#phone').attr('value',result.data[0].phone);
+                    $('#address').attr('value',result.data[0].address);
+                    return layer.open({
+                        type: 1,
+                        title: result.message,
+                        closeBtn: 1,
+                        btn : ['确定'],
+                        area: ['420px', '220px'], //宽高
+                        content:$('#tanchu'),
+                    });
+
+                }
+            },'JSON')
+        })
+    </script>
+</block>

@@ -1,0 +1,144 @@
+[ 2019-02-04T01:46:26+08:00 ] 127.0.0.1 /index.php?m=lease&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lease` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Lease\5b7b01085156028b59a2b3200698c012.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2019-02-04T02:13:54+08:00 ] 127.0.0.1 /index.php?m=lease&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lease` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Lease\5b7b01085156028b59a2b3200698c012.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2019-02-04T02:13:56+08:00 ] 127.0.0.1 /index.php?m=lease&c=information&a=index&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `lease` WHERE ( id="3" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `house` WHERE `community` = 2 AND `buildNum` = '122' AND `unitNum` = '21' AND `roomNum` = '21' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Lease\30182a789a35890d353839a9fb3ee539.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2019-02-04T15:25:48+08:00 ] 127.0.0.1 /index.php?m=lease&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Undefined index: p D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 7 行.
+NOTIC: [8] Undefined index: pageSize D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\ListController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `lease` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lease` WHERE `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lease` WHERE `community` = 2 LIMIT 0,9   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Lease\5b7b01085156028b59a2b3200698c012.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2019-02-04T15:25:49+08:00 ] 127.0.0.1 /index.php?m=lease&c=add&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: taskCount D:\phpProjects\wampProjects\shequ\Application\Runtime\Cache\Lease\33c27dead8effeefd191bb008ec62434.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2019-02-04T15:25:52+08:00 ] 127.0.0.1 /index.php?m=lease&c=add&a=getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\AddController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' D:\phpProjects\wampProjects\shequ\Application\Lease\Controller\AddController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `house` WHERE `buildNum` = '12' AND `unitNum` = '12' AND `roomNum` = '12' AND `community` = 2 LIMIT 1   [ RunTime:0.0002s ]
+

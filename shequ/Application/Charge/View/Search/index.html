@@ -1,0 +1,135 @@
+<extend name="Public:base"/>
+
+<block name="title">收费管理</title></block>
+
+<block name="header">
+    <div class="courst-bread" style="margin-top: 20px;">
+        <ol class="breadcrumb">
+            <li><a href="/index.php">首页</a></li>
+            <li><a href="/index.php?m=charge&c=list&a=index">收费管理</a></li>
+            <li class="active">收费搜索</li>
+        </ol>
+    </div>
+</block>
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 550px;padding: 10px;">
+
+        <div class="courst-contenr-border">
+
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <tr>
+                    <th style="text-align: center;">房屋地址</th>
+                    <th style="text-align: center;">小区名称</th>
+                    <th style="text-align: center;">楼栋·单元·室</th>
+                    <th style="text-align: center;">户主姓名</th>
+                    <th style="text-align: center;">收费时间</th>
+                    <th style="text-align: center;">收费金额</th>
+                    <th style="text-align: center;">收费人</th>
+                    <th style="text-align: center;">收费状态</th>
+
+                </tr>
+                <if condition="$chargeInfo neq null">
+                    <volist name="chargeInfo" id="chargeInfo">
+                        <tr  class="chargeTable" style="font-size: 12px;color: #8C8C8C;cursor: pointer;">
+                            <td id="address" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.address}</td>
+                            <td id="community" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.community|getCommunity}</td>
+                            <td id="buildNum" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.buildnum}--{$chargeInfo.unitnum}--{$chargeInfo.roomnum}</td>
+                            <td id="name" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.name}</td>
+                            <td id="time" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.time}</td>
+                            <td id="money" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.money}</td>
+                            <td id="admin" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">{$chargeInfo.admin}</td>
+                            <td id="operate"><if condition="$chargeInfo.ischarge eq 1">已缴交</if>
+                                <if condition="$chargeInfo.ischarge eq 0 and $chargeInfo.money neq 0"><a id="conformCharge"  attr-id="{$chargeInfo.id}">确定收费</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                                    <a id="editChargeBut" class="mouse-a" data-toggle="modal" attr-id="{$chargeInfo.id}" data-target="#editCharge">修改金额</a></if>
+                                <if condition="$chargeInfo.money eq 0 and $chargeInfo.ischarge eq 0"><a id="addChargeBut" attr-id="{$chargeInfo.id}" class="mouse-a" data-toggle="modal" data-target="#addCharge">添加收费</a></if></td>
+                        </tr>
+                    </volist>
+                    <tr  style="text-align: center;">
+                        <td colspan="8">
+                            <ul class="pagination" >
+                                {$pageRes}
+                            </ul>
+                        </td>
+                    </tr>
+                    <else/>
+                    <td colspan="8">暂无信息</td>
+                </if>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+    <!--  收费（Modal） -->
+    <div class="modal fade" id="addCharge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel" style="text-align: center">
+                        收费金额
+                    </h4>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <form>
+                        <input id="chargeId" type="hidden" name="id" value="">
+                        <input name="money" type="text" style="text-align: center;width: 100px;margin-right: 10px;" placeholder="请输入收费金额">元
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="addCharge.add()">确定
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--收费结束-->
+    <!--  修改收费（Modal） -->
+    <div class="modal fade" id="editCharge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top: 12%;width: 400px;margin-left: 60%;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel" style="text-align: center">
+                        修改金额
+                    </h4>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <form>
+                        <input id="editChargeId" type="hidden" name="editId" value="">
+                        <input name="editMoney" type="text" style="text-align: center;width: 100px;margin-right: 10px;" value="{$chargeInfo.money}">元
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="searchEditCharge.edit()">确定
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--收费结束-->
+</block>
+
+<block name="js">
+    <script src="/Public/js/charge/charged.js"></script>
+    <script src="/Public/js/charge/searchEditCharge.js"></script>
+    <script src="/Public/js/charge/addCharge.js"></script>
+    <script type="text/javascript">
+        $('.chargeTable #addChargeBut').on('click',function () {
+            var id = $(this).attr('attr-id');
+            $('#chargeId').attr('value',id);
+        })
+
+        $('.chargeTable #editChargeBut').on('click',function () {
+            var id = $(this).attr('attr-id');
+            $('#editChargeId').attr('value',id);
+        })
+
+    </script>
+</block>

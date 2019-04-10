@@ -1,0 +1,37 @@
+[ 2019-02-21T10:42:28+08:00 ] 220.160.49.4 /index.php?m=car&c=list&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: p /var/www/html/shequ/Application/Car/Controller/ListController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pageSize /var/www/html/shequ/Application/Car/Controller/ListController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' /var/www/html/shequ/Application/Car/Controller/ListController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant community - assumed 'community' /var/www/html/shequ/Application/Car/Controller/ListController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `community` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `car` WHERE `community` = 3 LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: taskCount /var/www/html/shequ/Application/Runtime/Cache/Car/6dd928699fc307ffbfe3f69bdbc28a87.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2019-02-21T23:20:48+08:00 ] 203.208.60.106 /Car/addCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载控制器:AddCar
+

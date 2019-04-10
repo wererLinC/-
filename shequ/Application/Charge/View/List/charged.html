@@ -1,0 +1,110 @@
+<extend name="Public:base"/>
+
+<block name="title">收费管理</title></block>
+
+<block name="header">
+    <nav class="navbar navbar-default" role="navigation" style="margin-left: 50px;margin-top: 20px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/index.php">首页</a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="/index.php?m=charge&c=list&a=index">添加收费(<span style="color: red">{$indexCount}</span>)</a></li>
+                    <li><a href="/index.php?m=charge&c=list&a=unCharge">待收费(<span style="color: red">{$unChargeCount}</span>)</a></li>
+                    <li class="active"><a href="/index.php?m=charge&c=list&a=charged">已收费(<span style="color: red">{$count}</span>)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</block>
+
+<block name="content">
+    <!-- 内容 -->
+    <div class="courst-content" style="height: 580px;padding: 10px;">
+
+        <div class="courst-contenr-border">
+            <!-- 操作 -->
+            <div class="courst-operate"  >
+                <div class="operate-item">
+									<span class="input-group-btn">
+										<button  class="btn btn-success" style="font-size: 12px;border-radius: 10%;" onclick="resetData.reset()">重置</button>
+										<button  style="margin-left: 30px;border-radius: 10%;font-size: 12px" class="btn btn-success ">导入</button>
+									</span>
+                </div>
+                <div class="operate-search">
+                    <div class="header-search" style="font-size: 12px">
+                        <div class="input-group col-md-8" >
+                            <input style="font-size: 12px;height: 31px;" type="text" name="searchContent" class="form-control"placeholder="请输入字段名" / >
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" style="font-size: 12px;" id="searchButton">查找</button>
+                            </span>
+                        </div>
+                    </div>
+                    <span style="margin-bottom: 0px;color: #d58512;float: right;margin-right: 10px;">共：<if condition="$count neq null">{$count}<else/>0</if>&nbsp;人</span>
+                </div>
+            </div>
+            <!-- 操作结束 -->
+            <table class="table-position table  table-bordered table-hover" style="width: 100%;margin: 0 auto; ">
+                <tbody style="background-color: #FBFCFC;text-align: center;">
+                <tr>
+                    <th style="text-align: center;">房屋地址</th>
+                    <th style="text-align: center;">小区名称</th>
+                    <th style="text-align: center;">楼栋·单元·室</th>
+                    <th style="text-align: center;">户主姓名</th>
+                    <th style="text-align: center;">收费时间</th>
+                    <th style="text-align: center;">收费金额</th>
+                    <th style="text-align: center;">收费人</th>
+                </tr>
+                <if condition="$chargeInfo neq null">
+                <volist name="chargeInfo" id="chargeInfo">
+                    <tr style="font-size: 12px;color: #8C8C8C;cursor: pointer;" onclick="javascript:location.href='/index.php?m=charge&c=information&a=index&id={$chargeInfo.id}'">
+                        <td>{$chargeInfo.address}</td>
+                        <td>{$chargeInfo.community|getCommunity}</td>
+                        <td>{$chargeInfo.buildnum}--{$chargeInfo.unitnum}--{$chargeInfo.roomnum}</td>
+                        <td>{$chargeInfo.name}</td>
+                        <td>{$chargeInfo.time}</td>
+                        <td>{$chargeInfo.money}</td>
+                        <td>{$chargeInfo.admin}</td>
+                    </tr>
+                </volist>
+                    <tr  style="text-align: center;">
+                        <td colspan="7">
+                            <ul class="pagination" >
+                                {$pageRes}
+                            </ul>
+                        </td>
+                    </tr>
+                    <else/>
+                    <td colspan="7">暂无信息</td>
+                </if>
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 内容结束 -->
+
+    </div>
+
+</block>
+
+<block name="js">
+    <script src="/Public/js/charge/resetData.js"></script>
+    <script type="text/javascript">
+        //搜索函数
+        $('#searchButton').on('click',function () {
+            var searchContent = $('input[name="searchContent"]').val();
+            var re = /^[0-9]+.?[0-9]*$/; //判断字符串是否为数字 //判断正整数 /^[1-9]+[0-9]*]*$/
+            if (!re.test(searchContent)) {
+                //不是数字那就是名字来查
+                window.location.href='/index.php?m=charge&c=search&a=index&name='+searchContent;
+            }else{
+                //是数字就是用身份证来查的
+                window.location.href='/index.php?m=charge&c=search&a=index&cardId='+searchContent;
+            }
+        })
+    </script>
+</block>
